@@ -1,0 +1,6 @@
+hello bbhai tum kaise ho?
+
+// git init [once in a project]
+git add.
+
+git commit -m ""   -(hiphen hai ish minus ka matlb)
