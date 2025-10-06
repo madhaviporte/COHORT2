@@ -1,0 +1,7 @@
+Client-Server Model
+maii------->sheriyans class
+in dono ke bich me kya kya huwa kaise huwa kaise ham dekh pa rhe hai sun pa rhe hai ye sbb ke bare me aj ham smjhenge.
+Client=(anything jo user control krta hai vo Client hota hai)phone,laptop,google browser.
+Server=(ek computer system jo program ho ishtarha se jo ane wali request ko lekr unko vo file de) jo hame serve kre chize jo ham mange.
+
+HTTP request-response Cycle

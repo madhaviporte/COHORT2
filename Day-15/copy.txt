@@ -1,0 +1,19 @@
+z-index
+z-index zada vo uper rhega
+
+Transform-
+div me jada kam ati hai
+translate() jitna size hoga utna hi move hoga.
+
+kisi bhi chiz ko center lane ke liye formula
+position=absolute
+left=50%
+right=50%
+Transform=
+
+flex-wrap= ager space nahi hai to next line par aa jayega
+
+overflow= auto
+scroll hoga ye property lgane ke bad 
+
+box-shadow=(x,y,bllur,colur)
