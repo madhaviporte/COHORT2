@@ -1,0 +1,15 @@
+Position absalute= kisi bhi chiz ko uper uthaa deta hai fir jis jagha se utha hai vha jagha khali ho gyi vha koi or akr adjust ho jayega.
+
+z-index= jitna jada rhega utna uper ayega.
+
+transform= kisi bhi element ki size ko chnage krne ke liye use hota hai mainly its use for div
+
+kisi bhi box ko center krne ke liye formula =[position: absolute; top: 50%;
+    left: 50%; transform: translate(-50% -50%);]
+
+clip path =(search on google) shape bnao jo chahiye apko fir uska id copy krke apne code me paste krdo shap ban jayega. 
+
+FLEX:
+align-item= cross axis(y-axis me kam krega)
+justify-content= main axis(x-axis pe kam krega)
+flex-direction= row by defoult vvalue hoti hai.
