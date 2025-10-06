@@ -1,2 +1,0 @@
-a tag me # ka mtlb hota hai null ayegi link me.
-#main>h1= main ke direct ander hoga usme > ka sigh se denote krte hai.
