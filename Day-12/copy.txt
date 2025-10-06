@@ -1,0 +1,18 @@
+position= absolute,relative,fixed,stiky
+
+position absolute= kisi bhi element ko position absolute bna diya to vo apne jgha se uper uth jata hai
+
+// jo element absolute hota hai vo upper uth jata hai agr tumne ush value ko mobve kiya to kisi ke uper bhi aa skta hai
+
+--->left,right,top,bottom,z-index 5 property use hogi jb position property lgi ho.
+
+// koi bhi element jispe position ni hai uspe left,r right,top,bottom and z-index nam ki property kam nahi krti hai
+// jispe positon ki property hai usme ye sari chize kam kregi left, right, top, bottom, z-index.
+
+position relative= box ke andr hi rhenge elements hame dabba ko relative bnana pdhega
+
+fixed= position fixed ho jati hai movement ni hoti hai.
+
+//kisi bhi position ko apne agr diya to vo 
+
+//ager apka ek
