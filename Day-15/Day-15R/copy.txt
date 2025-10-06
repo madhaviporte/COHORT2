@@ -10,6 +10,7 @@ kisi bhi box ko center krne ke liye formula =[position: absolute; top: 50%;
 clip path =(search on google) shape bnao jo chahiye apko fir uska id copy krke apne code me paste krdo shap ban jayega. 
 
 FLEX:
+display-flex = ek line pe aa jayenge element.
 align-item= cross axis(y-axis me kam krega)
 justify-content= main axis(x-axis pe kam krega)
 flex-direction= row by defoult vvalue hoti hai.
