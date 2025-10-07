@@ -1,0 +1,11 @@
+(a) tagg is called ankr tag.
+
+block element= h1,div,
+
+a tag = inline element
+
+inline element=(sara chiz ek line me aa jayega jo by default colom line me ati thi)
+
+display-flex= unidirection me kam krta hai.
+
+display-grid= multi direction me work krta hai.
