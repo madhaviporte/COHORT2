@@ -1,0 +1,14 @@
+main---> simentic hai
+    <main>
+        <header></header>
+        <footer></footer>
+    </main>
+</body> this all are semintic which is very frindly to browser 
+browser me load jaldi hota hai inko use na krne se (#) or (.) se
+
+Grid= pure screen ke liye hoota hhai badhi chizo ke liye or ye row or colom dono ko manage krta hai.
+grid(x,y dono pr kam kr skte hai badhe layout me easly kam kr skte hai)
+
+1fr= fraction hota hai ishka mtlb.
+minimax = minimum kkitna or maximum kkitna 
+grid-gap= charo side ggape ho jjayega box ke
