@@ -1,0 +1,8 @@
+Boilerplate, universal 
+slector= sbb ek sath sslect krta hai pure website me follow krta hai.
+
+box-sizing = border-box box ki size manage krne me help krta hai
+
+#dribble website HW
+
+nice color= rgb(3, 42, 55)

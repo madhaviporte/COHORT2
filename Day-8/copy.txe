@@ -1,5 +1,5 @@
 Frontend
--HTML (search engine optimisation-SEO)
+-HTML (search engine optimisation=SEO axa hai to website jaldi load hogi)
 main get of website
 -CSS (cascading style sheed)
 -JS (Java script)
@@ -11,3 +11,17 @@ Backend
 
 Code editor(where we write our code)
 Browser(where we can see our website)
+
+file and folder
+
+image.jpg (file name . file type)
+notes.txt
+music.mp3
+video.mp4
+
+HTML = Hyper text markup language
+kaise dikh rha hai nam kya hai website ka ye sara html responsible hai.
+
+Boiler plate/ html:5 = !(exmlation marks)
+<a href=""></a>
+a tag = anker tag link generate hota hai this is user to inserting hyper linking link
