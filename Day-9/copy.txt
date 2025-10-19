@@ -1,0 +1,7 @@
+open tag only = <br> , <img>
+
+meta charset = jb website upload hogi to kaunse language me uplaod hogi ye btata hai ye (charecter ke incoding ko btata hai )
+
+meta viewport = jb ham website ko responsive krenge to vo device ke hisab se size adjust krega
+
+fevicon = jo ham weside bnate hai to jo topbar me dikhta hai usi ko bolte hai fevicon 
