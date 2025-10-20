@@ -4,8 +4,8 @@ z-index= jitna jada rhega utna uper ayega.
 
 transform= kisi bhi element ki size ko chnage krne ke liye use hota hai mainly its use for div
 
-kisi bhi box ko center krne ke liye formula =[position: absolute; top: 50%;
-    left: 50%; transform: translate(-50% -50%);]
+kisi bhi box ko center krne ke liye formula =
+[position: absolute; top: 50%; left: 50%; transform: translate(-50% -50%);]
 
 clip path =(search on google) shape bnao jo chahiye apko fir uska id copy krke apne code me paste krdo shap ban jayega. 
 
