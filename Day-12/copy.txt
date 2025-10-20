@@ -13,6 +13,8 @@ position relative= box ke andr hi rhenge elements hame dabba ko relative bnana p
 
 fixed= position fixed ho jati hai movement ni hoti hai.
 
-//kisi bhi position ko apne agr diya to vo 
+//kisi bhi position ko apne agr diya to vo bydefoult relative ka bhi kam krti hai
 
 //ager apka ek
+
+sticky = ager ek div hai uske andr ek or div hai vo scroll krte krte top me chipak jayega tb tk jb tak vo parent pura scroll hokr khatm nahi ho jata hai
