@@ -1,8 +1,24 @@
 Boilerplate, universal 
 slector= sbb ek sath sslect krta hai pure website me follow krta hai.
 
-box-sizing = border-box box ki size manage krne me help krta hai
+border = size badh jati hai main size se ye problem hoti hai css me
+
+box-sizing = border ke box ki size manage krne me help krta hai
 
 #dribble website HW
 
 nice color= rgb(3, 42, 55)
+
+center krna hai chizo ko to = body(display:flex, align-item:center, justify-content:center)
+
+transform= pura box sift hoga right,left,top,bottom,rotate value ke hisab se hoga.
+
+parcpective(rotate)= body ko dena hai to hame rotate hote huye dikhai degi 
+
+tranform(scale)= element ka size kitna hai 1= pura size element 1 se multiply krte jao number multiple hota jayega
+
+position-absolute(freedom-pure screen ke hisab se lega) = bigdhne lagega parents ke hisab se ni chalega agr child ko denge position absolute ko
+
+transition all = sbb par kam krega
+
+ease = tarnsition kaisa hoga slow fast combinition isse dete hai value.
