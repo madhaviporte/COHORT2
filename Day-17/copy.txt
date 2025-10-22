@@ -4,8 +4,26 @@ block element= h1,div,
 
 a tag = inline element
 
+display:inline block (line me aa jayegi sari chize
+)
+
 inline element=(sara chiz ek line me aa jayega jo by default colom line me ati thi)
 
 display-flex= unidirection me kam krta hai.
 
 display-grid= multi direction me work krta hai.
+
+bahut sare ek jaise chiz hai to unko kaise select krte hai= .box:nth-child()<----jisko hme selectkrna hai vo likhenge yha
+
+second line same = .box:nth-last-box()
+
+select= 2n,2n-1 types of variables jisse ham selelect kr skte hai
+
+display:grid = basically 2 axis par kam krti hai collom or rows bnane ka
+
+background-clip = text me apply hogi
+
+text me line outline bnana ho to use krte hai (-webkit-text-stroke)
+
+yha flex-wrap hone bawjood ye srink krega to yha ham use krenge= 1)overflow hidden(stick ho jayega screen)
+2)overflow auto me scroll hoga 
