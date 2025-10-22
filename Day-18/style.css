@@ -1,25 +1,28 @@
-*{
+* {
     padding: 0;
     margin: 0;
     font-family: 'Courier New', Courier, monospace;
     box-sizing: border-box;
     color: white;
 }
-html,body{
+
+html,
+body {
     width: 100%;
     height: 100%;
 }
+
 /* main{
     height: 100%;
     width: 100%;
     background-color: black; */
-    /* display: grid;
+/* display: grid;
     grid-template-columns: 100px 100px 100px ;
     grid-template-rows:100px 100px 100px 100px;
     grid-gap: 10px;
     align-items: center;
     justify-content: start; */
-    /* display: grid;
+/* display: grid;
     grid-template-columns: 200px 1fr;
     grid-template-rows: 60px 1fr 80px;
     grid-template-areas: "header header"
@@ -53,7 +56,7 @@ footer{
     grid-area: footer;
 } */
 
-main{
+/* main{
     width: 100%;
     height: 100%;
     background-color: black;
@@ -86,4 +89,39 @@ div2{
 div3{
     background-color: lightseagreen;
     grid-area: div;
+} */
+
+main {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 60px 1fr 80px;
+    grid-gap: 10px;
+    padding: 10px;
+    grid-template-areas: "header header"
+        "aside section"
+        "footer footer"
+    ;
+}
+
+header {
+    background-color: darkcyan;
+    grid-area: header;
+}
+
+aside {
+    background-color: lightseagreen;
+    grid-area: aside;
+}
+
+section {
+    background-color: midnightblue;
+    grid-area: section;
+}
+
+footer {
+    grid-area: footer;
+    background-color: maroon;
 }

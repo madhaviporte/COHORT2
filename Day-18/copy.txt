@@ -4,10 +4,15 @@ main---> simentic hai
         <footer></footer>
     </main>
 </body> this all are semintic which is very frindly to browser 
-browser me load jaldi hota hai inko use na krne se (#) or (.) se
+browser me load jaldi hota hai inko use na krne se (#) or (.) 
+
+div se batter main hai kuki ishka SEO axa hai (load jaldi hota hai browser me)
+
+diffrnt type ke tag hote hai jo div ka kam krte hai jaise = main,section,bottom,top etc
 
 Grid= pure screen ke liye hoota hhai badhi chizo ke liye or ye row or colom dono ko manage krta hai.
 grid(x,y dono pr kam kr skte hai badhe layout me easly kam kr skte hai)
+flex=chhoti chizo ke liye use hoti hai.
 
 1fr= fraction hota hai ishka mtlb.
 minimax = minimum kkitna or maximum kkitna 
