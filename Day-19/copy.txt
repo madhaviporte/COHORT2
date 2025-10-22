@@ -1,0 +1,18 @@
+units=
+
+1. px (pixels)= fixed
+
+2. %(percentage)= depend on parents
+
+3. vw(viewport width)= jis screen ki ham bat krre hai(pura screen cover hoga)[responsive me bahut help hota hai]
+
+4. vh(viewport height) = depends on length on screen (pure screen par hi depend hai)
+
+5. vmax(viewport maximum)= screen ek time par aker static ho jayegi
+
+6. vmin(viewport minimum)= screen ek time par static ho jayegi minimum range ke hisab se
+
+7.em()= em parents ke hisab se multiple hote jayega 1em(single),2em(double),3em(triple)
+parent hai uske child ko ham em ki property denge or vo child apne parents ke hisab se size adjust krega.
+
+8. rem(16px)= pahle se value difine hoti hai ye html ke root me discribe hai uske hisab se size adjust krti hai
