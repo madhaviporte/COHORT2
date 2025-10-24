@@ -1,0 +1,29 @@
+Responsive:
+1.Units(CSS)
+px,%,vh,vw etc.
+
+basically two types of units in Css 
+
+1.absolute
+fixed value hoti hai (depend nahi krti kisi par bhi indpendent hoti hai)
+px,pt,cm,mm,in
+
+2.Relative
+not fixed value dusro pe depend krti hai 
+%,vw,vh,rem,em,vmin,vmax
+
+vw= viewport width
+
+viewport=(jo browser hame space deta hai apni webside show krane ke liye jo bhi dikhta hai vo viewport hota hai)
+
+vh= viewport hight
+
+rem=
+root element=[html,head,body,main,section,h1]
+root element(html ke element hi hote hai)
+html,body,section,main in sb ka default fontsize = 16px hota hai.
+rem or em html ke element me depent krte hai.
+
+em= apne nearest insister element par depend krti hai ye(html tag jo sabse pass hogi uspe depend kregi ye)
+
+% unit depend hoti hai apne parent me depend hoti hai
