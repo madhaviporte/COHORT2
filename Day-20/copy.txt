@@ -1,0 +1,15 @@
+sass extension convert krra hai css file me continue
+
+Scss=
+1. nesting= code ke ander code root ke trha likhte jao 
+1. html me jaise root ke andr likhe hai vaise hi same scss me root vise likh skte hai.
+2.code ko moduler bnane me help krta hai.
+
+2. Mixins
+1.code jo bar bar repeat hota hai use ek bar me likhna convert krta hai scss(repeat code ko ek bar likhne me help krega time bachega)
+
+3. Partial & Import
+1. underscore se start ho rhi hoti hai. 
+
+HW=flex grow learning 
+flex grow ka mtlb hota hai ki jitna parent me space liya hia utna hi jaha ham flex grow de rhe hai vha bhi utna hi space bane(hright and wight)
