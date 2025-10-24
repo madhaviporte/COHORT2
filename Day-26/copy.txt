@@ -1,0 +1,42 @@
+introduction to js
+1.js ek scripting language hai
+2.cmpt to binary smjh ati hai jo ki 0,1 mai likhi jati hai 0101010101
+ham word me likhte hai usko(interpreater/compiler ke thought convert krte hai) 01010101 ke form me 
+3. js bhi ek aishe language hai jo ham insan likhte hai fir vo convert hokr computer language me hota hai
+4. cmpt powerful hai unhe use krne se ham kam jaldi kar skte hai and unki language hume nahi ati hamari language unhe nahi ati to ek translator bnao jo hmari lang ko unki language me convert krde and ulta bhi kre- compiler/interpreater
+.js- brendan eich
+.nestscape me kam krte the
+.15-16 dino me banai
+.itni jaldi bani to kafi issues reh gyi
+.jaldbaji ka kam ho gya
+.error and bugs chhooot gye
+.to unhe fix krte krte krte krte js ka bhut sare version aye
+.unme se ek sbse bada version aya jiska nam tha es6
+.uska bad or bhi version aye par es6 sbse bada chnage raha js ki history me kuki js lagbhag completely badal gyi.matlab ki js ke issue and bugs and problem ko fix krne ke liye bht sare nye update diye gye.
+
+*js browser pe chalegi.
+*js ko html file ke body part me connect krte hai
+*jb html file chalegi tab hi sath me js bhi chal jayega
+
+//har browser me js chalega kuki js language sbse pahle aya tha.
+
+HW= scripting language kya hoti hai/ or kaun kaun si language hoti hai / sare topics pdhna hai chatgpt se.
+1. js full course dekhni hai ajka task hai(2hour)
+
+why it is important
+kuki website pe animation se lekr interaction se lekr laghbhag har prakar ka koi engagement create krne ke liye js use hoti hai.
+
+what can it do for you?
+engagement,interaction,animation,validation har chiz krwane me help krta hia js.
+
+script tag use karke attach krna hai js ko
+js ko browser me run krna
+
+var,let,const
+var= value change hoti hai.
+let=
+const=value change ni kr skte hai
+
+console...prompt alert
+strings kya hoti hai
+slice template-string/backtick/tamplate literal
