@@ -1,0 +1,18 @@
+var let const
+console.log()
+console.info()
+console.error()
+console.table()
+
+2.prompt alert
+let nm= prompt
+prompt (puchhta hai) alert(sirf btata hai) ye dono me difference hota hai.
+
+string:
+
+""
+''
+123a
+kuchh bhi likho sath me koi special charecter ho to vo string ban jati hai
+
+template string

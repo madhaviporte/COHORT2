@@ -67,8 +67,8 @@ h1{
     display: flex;
     gap: 30px;
     flex-wrap: nowrap;
-    /* overflow: hidden; */
-    overflow: auto;
+    overflow: hidden;
+    /* overflow: auto; */
 }
 #parent::-webkit-scrollbar{
    background-color: rgba(222, 184, 135, 0.227);

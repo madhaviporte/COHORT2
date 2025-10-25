@@ -34,7 +34,9 @@ padding: 30px;
 background-color: rgb(3, 42, 55);
 display: flex;
 gap: 20px;
-flex-wrap: wrap;
+flex-wrap: nowrap;
+/* overflow: hidden; */
+/* overflow: auto; */
 }
 .card{
  height: 300px;
@@ -44,6 +46,7 @@ flex-wrap: wrap;
  transition: all ease 1s;
  overflow: hidden;
  border-radius: 30px;
+ flex-shrink: 0;
 }
 .card img{
   height: 100%;
