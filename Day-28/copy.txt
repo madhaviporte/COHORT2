@@ -1,0 +1,47 @@
+1.add comments
+
+2.datatypes- data ka type hi hai datatypes
+harsh=string
+12=number
+false true=boolean
+[]=array
+{}=object
+12.4=float
+
+3.float
+point part(1.2)
+
+4.number
+12,13,24
+
+5.string
+h,r,u,l
+aur bhai kaise hol
+(aisha koi bhi chiz jisme letter ya kisi bhi chiz ka combination ho use string kahte hai)
+
+6.boolean
+true and false
+
+7.null
+jab hmare pas koi value nahi hai dene ke liye
+(jab apke pass koi value naa ho dene ke liye tab null use hota hai)
+
+8.array
+ek se jada value hold krne ke liye use hota hai
+
+9.object
+ek element ke bare me bahut sari bate krta
+
+10.symbol
+
+11.undefine
+(jab koi variable bnate hai pr value nahi dete use undefine kahte hai value hai par hame pta hai ki hai kya)
+
+12.Nan(not a number)
+
+
+13.Infinity
+
+14. relative and primitive datatype in js 
+.primitive= jinki value direct copy kar skte hai
+.relative(non-primitive)= jinke value direct copy nahi kar skte hai

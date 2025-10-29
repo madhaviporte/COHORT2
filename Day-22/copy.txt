@@ -27,3 +27,5 @@ rem or em html ke element me depent krte hai.
 em= apne nearest insister element par depend krti hai ye(html tag jo sabse pass hogi uspe depend kregi ye)
 
 % unit depend hoti hai apne parent me depend hoti hai
+
+clamp(lower limit, value,upperLimit)

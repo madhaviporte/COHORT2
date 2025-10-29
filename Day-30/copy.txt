@@ -1,0 +1,69 @@
+4=COMPARISIOON OPERATOR (compair krte hai left or right side ko)
+
+== === != !== > < >= <=
+
+== not strict compare never use this
+=== strickt compare always use this
+!= never use this
+!== always use this
+
+5=LOGICAL OPERATOR
+&&(and) ||(or) !(not)
+
+&&
+true && true = true
+false && false = false
+true && false = false
+false && true = false
+
+||
+true || true = true
+false || false = false
+true || false = true
+false || true = true
+
+!
+ulta krta hai true ko false and false ko true 
+
+6=TERNARY OPERATOR
+condition ? dothis : dothat
+
+7=TYPE CHECKING OPERATOR
+typeof
+instanseof
+(kuchh bhi bnaooge vo top pe likhi gyi chejo se ata hai)
+
+STRING OPERATOR
+
++(for concatenation) [jodh deta hai chizo ko as it is]
+
+8=SPREAD/REST OPERATOR
+....(very importent in modern js)
+spread...
+let arr = [1,2,3,4,5];
+let arr2 = [...arr];
+rest...
+function abcd(a,b,c....rest){
+
+}
+
+9= NULLISH coalecing OPERATOR
+?? (fallback only whan null / undefined)
+
+10=OPTIONAL CHAINING
+?.(safe access to nested values)
+
+varable hoisting in js
+value dene se pahle ham use kr skte hai value ko 
+. do isso me tut jata hai ek uper chala jata hai dusra apne jgha pr rah jata hai
+. 2 hisse 1) decleration 2)initialization
+. decleration uper chala jayega initialization vhi rah jayega
+hoisting work only var(upr jayega decleration/vhi rah jayega initialization)
+hoisting not word for let and const (becouse of temporal dead zone hota hai)
+
+understanding condition operator in javascript = ['if' , 'else' , 'if-else' , 'else-if' , 'Ternary Operator' , 'Switch']
+
+LOOPS
+'for' loop in javascript
+'while' loop in javascript
+'do..while' in javascript

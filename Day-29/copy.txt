@@ -1,0 +1,3 @@
+defer=pahle dom laod karlo and tab js ko load kro 
+
+1.prompt se jo bhi loge vo string ban jayegaa
