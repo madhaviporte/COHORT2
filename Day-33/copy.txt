@@ -1,0 +1,20 @@
+level 1
+
+1. print 1 to 10 number
+2. print only even numbers from 1 to 20 use a loop and condition to print only even once
+3. print numbers from 10 to 1 reverse loop with a decrement
+4. print the word "yes" 5 times Repeat using a loop
+5. Print wheather number from 1 to 10 are even or odd for each number check: even-> "even" else-> "odd"
+6. Ask user for a number and say if its positive or negative use prompt() and a console.log
+
+2 tarike hote hai string ko number bnane ke liye
+i) parseInt("12")
+ii)Number("12")
+
+// jab bhi prompt se kuchh magoge to socho kya voo number hai agr hai to use convert krna padhega
+i) parseInt
+ii)Number
+iii) +
+ye sbb ke use se string number ban jayegi
+
+7. Ask user`s age and check if eligibale to vote if age >=18 -> "eligible", wlse -> "not eligible"

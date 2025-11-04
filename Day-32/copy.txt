@@ -1,0 +1,50 @@
+loops & conditional in js
+conditionals
+if else
+truthy and falsy
+0""" false NaN null undefined document all
+kuchh bhi dikhe--> true
+
+false
+0
+"""
+NaN
+null
+undefined
+document all
+
+true
+kuchh bhi dikhe true hoga 
+
+ager if chal gya to else if nahi chalega
+
+switch ke bracket me kuchh bhi pass kro/ likho vo chalega jab tak ap break nahi lgaoge line me
+
+LOOPS (reapeat krna)
+loop ke use cases me 2 types hai
+// 1 3 5 7 9 11 13 15 17 19
+// 0 1 1 2 3 5 8 13 21 34....(febonachi series)
+
+//straightforword loops ---> na hi value badaliti hai naa hi printing badalti hai
+//dynamic loop ->> value badal skti hai and printing bhi badal skti hai.
+
+for loop
+for(start; end; change;){jo hame print krwana hai}
+for(let i=1; i<0; i++){
+    console.log("harsh");
+}
+
+11 12 13 14 15 ....
+for(let i=11; i<16; i++){
+    console.log(i);
+}
+30-10
+for(let i=30; i>9; i--){
+    console.log(i)
+}
+
+12-1(missing 5,7)
+for(let i=12; i>0; i--){
+    if(i===5 || i===7) {}  ----->by pass method
+    console.log(i);
+}
