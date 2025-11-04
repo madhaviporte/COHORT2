@@ -1,0 +1,11 @@
+7. Ask user`s age and check if eligible to vite if age>=18-> "eligible", else-> "not eligible"
+8. Print multiplication table of 5 use loop to print 5*1 to 5*10
+9. Count how many numbers between 1 and 15 are greater than 8 loop and count conditionally
+10. Ask user for password and prrint access status hardcoded corrected password. compare with user input
+
+
+level=2
+
+11. Allow onlu 3 attempts to enter correct password if user gets it right early, stop. if not-> "account locked"
+
+12. Ask user for words until they type "stop". count how many times they typed "yes" loop umtill "stop" is typed. Count "yes"
