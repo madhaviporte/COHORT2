@@ -7,6 +7,8 @@ level 1
 5. Print wheather number from 1 to 10 are even or odd for each number check: even-> "even" else-> "odd"
 6. Ask user for a number and say if its positive or negative use prompt() and a console.log
 
+:prompt me kuchh bhi do vo string return krega hamesa
+
 2 tarike hote hai string ko number bnane ke liye
 i) parseInt("12")
 ii)Number("12")
@@ -18,3 +20,6 @@ iii) +
 ye sbb ke use se string number ban jayegi
 
 7. Ask user`s age and check if eligibale to vote if age >=18 -> "eligible", wlse -> "not eligible"
+
+NaN === NaN ---> false
+isNaN(Nan)----> true

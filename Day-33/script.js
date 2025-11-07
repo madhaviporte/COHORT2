@@ -44,7 +44,8 @@ for (let i = 1; i < 11; i++) {
 
 const prompt = require("prompt-sync")();
 // let num = prompt("number btao");
-// prompt se kuchh bhi mango vo string hi dega
+
+// ---------prompt se kuchh bhi mango vo string hi dega--------
 // if (num === 12) {
 //     console.log("it is 12");
 // }
@@ -67,19 +68,21 @@ if (age === null) {
     console.error("you cancelled it");
 
 }
-else
+
+else {
     if (age.trim() === "") {
         console.error("bhai dhang se likh le");
-
+        // .trim blank space irrage kr deta hai
     }
 
     else {
-        age = Number(age.trim());
-        if (isNaN(age)) {
-            console.error("bhai plz number dede....");
+    age = Number(age.trim());
+    if (isNaN(age)) {
+        console.error("bhai plz number dede....");
 
-        }
-        else {
-            console.log("confirm number");
-        }
     }
+    else {
+        console.log("confirm number");
+    }
+}
+}
