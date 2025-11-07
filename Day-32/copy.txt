@@ -1,9 +1,21 @@
 loops & conditional in js
-conditionals
-if else
+
+CONDITIONAL:
+program me kai bar aisa pahse ata hai jaha par apko decide krna pdhta hai ki kya kare option A chose kre ya option B chose kare
+
+if else(agr magar jab ho tab ham if else ki bat krenge)
+FORMATE=
+if(){
+    ?
+}
+else{
+    ?
+}
+()ishke ander truthy and falsy ka concept lgta hai
+
 truthy and falsy
-0""" false NaN null undefined document all
-kuchh bhi dikhe--> true
+0""" false NaN null undefined document.all-----> ye false hoga hmesa
+kuchh bhi dikhe--> true(accept upr wale chize)
 
 false
 0
@@ -16,11 +28,29 @@ document all
 true
 kuchh bhi dikhe true hoga 
 
+
+if(12>13){
+    console.log("if chala");
+}
+else if(13>14){
+    console.log("else if chala");
+}else{
+    console.log("else chala")
+}
+
 ager if chal gya to else if nahi chalega
 
+TARNARY OPERATOR:
+12>13? console.log("hey")[true hoga value tab question mark ke bad wali chiiz chalegi] : console.log("hello"); [agar given chiz false hogi tab coolen ke bad wali value chalegi]
+
+SWITCH CASE:
+switch(){
+ ?   
+}
+()ishke ander jo likha hoga vo ander code se related hona chahiye or vhi se code run hoga fir jaha brek lgayenge code me vhi tak chalega
 switch ke bracket me kuchh bhi pass kro/ likho vo chalega jab tak ap break nahi lgaoge line me
 
-LOOPS (reapeat krna)
+LOOPS(reapeat krna):
 loop ke use cases me 2 types hai
 // 1 3 5 7 9 11 13 15 17 19
 // 0 1 1 2 3 5 8 13 21 34....(febonachi series)
