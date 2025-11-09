@@ -1,0 +1,16 @@
+17. Print only first 3 odd numbers from 1 to 20 use loop. stop with break anfter 3 odd prints
+18.Ask user 5 numbers count how many are poositive use loop + condition + counter.
+19. Atm simulator - allow 3 withdrwals start with Rs1000 balance ask withdrwal amou
+
+`do...while` in js
+do{
+    console.log("hey");
+    i++;
+}while(i<10);
+
+RECURSION in js(function khudke ander khudko hi call krta hai)
+
+FUNCTION:
+:understanding function in javascript and why its  widely used - [`parameters` , argument , rest parameter, hoisting , variable hoisting , function hoisting]
+//apka code jo turant nahi chalega tab chalega tab ap bologe ki ab chalo
+//ap us code ko kitni bhi bar chala sakte ho
