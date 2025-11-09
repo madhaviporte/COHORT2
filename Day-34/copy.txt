@@ -4,8 +4,28 @@
 10. Ask user for password and prrint access status hardcoded corrected password. compare with user input
 
 
-level=2
+level=2[Slightly Tougher but Logical]
 
 11. Allow onlu 3 attempts to enter correct password if user gets it right early, stop. if not-> "account locked"
+
+WHILE LOOP: [ tab tak challo jab taj condition true ho]
+
+for - start end change
+for(start; end; change){
+    your code
+}
+
+while=
+
+start
+while(end){
+    //// your code
+    change
+}
+
+INFINITE LOOP:(virus hai ye)
+while(true){
+     prompt("naam batao");
+}
 
 12. Ask user for words until they type "stop". count how many times they typed "yes" loop umtill "stop" is typed. Count "yes"

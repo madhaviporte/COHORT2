@@ -1,1 +1,13 @@
 11. Allow only 3 attempts to enter correct password if user gets it right early stop if not -> account locked
+
+// coupppan=LEARNOVA
+
+12. Ask user for words until they "stops . count how many times they typed "yes"
+loop until "stop" is typed. count "yes"
+13. Print numbers divisible bby 7 from 1 to 50 use module % annd loop
+14. sum of all odd numbers from 1 to 30 add only odd numbers. Print final sum.
+15.Keep asking number until user enters an even number use while loop. stop only if input is even.
+16. Print numbers between two user inputs Input start and end using prompt()-> print all between.
+17. Print only first 3 odd number from 1 ti 20 use loop. stop with break after 3 odd prints.
+18.Ask user 5 number. count how many are use loop + condition + counter.
+19.ATM simulator- Allow 3 withdrawals 

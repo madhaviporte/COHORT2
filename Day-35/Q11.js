@@ -1,4 +1,5 @@
 const prompt = require("prompt-sync")();
+
 let attempt =0;
 let sahipassword = "madhavi";
 
@@ -14,6 +15,6 @@ if(attempt=== 3 && sahipassword !== userpassword){
     console.error("Account Locked");
     
 } else {
-    console.log("done");
+    console.log("Done");
     
 }

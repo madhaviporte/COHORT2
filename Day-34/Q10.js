@@ -1,4 +1,5 @@
 const prompt = require("prompt-sync")();
+
 let password = "madhaviporte";
 let pass = prompt("password batado");
 if(pass===null){
