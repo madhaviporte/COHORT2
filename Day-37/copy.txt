@@ -1,0 +1,20 @@
+code likhte hi chal jata hai js me ish liye ham function ka use krte hai ki code direct na chale
+
+.function[code ko reuse karne me help krta hai]
+.function apke code ko tab chalata hia jab app chahoo
+
+Hoisting(kisi bhi chiz ke banne se pahle ham useee use kar skte hai)
+
+required paramerter: agar apne parameter banaye and apne unme argument nahi bheje to fir wo value parameter ki undefined ho jayegi
+
+SCOPE CHAIN
+jo varibale jaha bantta hai agr vo function ke ander hai to pure function me kahi bhi use ho skta hai (function scope kahte hai)
+ager vo function ke baher bna hai to vo pure code me kahi bhi use ho skta hai(global scope kahte hai)
+
+IIFE(immediatly invoked function expression)--> turant chal gya
+
+MORE FUNCTION IN JS ---> arrow function , fat arrow function(()=>{
+    ?
+};)
+
+ANONYMOUS FUNCTION(jiska koi nam nahi hota hai)
