@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+h2{
+    color: blue;
+}
+
+button{
+    background-color: red;
+}

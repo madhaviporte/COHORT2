@@ -1,0 +1,9 @@
+PURE FUNCTION:
+pure function ek aisa function
+same input = same output
+koi side effect nahi hoga
+
+closure--> ek function hai jo return krta hai function but returning function jo hai wo parents fnc ka koi varibale use krega
+
+Arrays-->
+ek se jada members rakkhne ki jgha hai ye
