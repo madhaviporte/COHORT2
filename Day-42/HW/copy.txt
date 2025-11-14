@@ -1,0 +1,16 @@
+DOM learn what matters
+what is dom?(documents object model)
+4 pillars of dom
+1.Sellection of an element
+2.chnageing html
+3.chnaging css
+4.event listener
+
+Selection:(html selection ke liye hhota hai ye)
+var a=document.querySelector("")
+console.log();
+
+CHanging HTML:(html ke ander changes krne ke liye select krte hai)
+var a = document.querySelector("something")
+a.innerHTML = "something"
+
