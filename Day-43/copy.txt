@@ -3,4 +3,10 @@ screen me ham 3 color se sara color bbna skte hai RGB(red, green,blue)
 range color ki 255 tak hi hoti hai usse jada nahi aa skti kabhi bhi
 
 task
-make a ipl 2026 winner gussing 
+make a ipl 2026 winner gussing game
+team:
+primary:
+secondery:
+fullname:
+trophies:
+Captain:
