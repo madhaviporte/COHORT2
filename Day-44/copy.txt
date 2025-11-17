@@ -1,0 +1,15 @@
+createElement is used to create new element
+
+appendChild is used to append it in any parent
+
+1. make main tag in html, give it height and width 100%
+2.make a button and cennter it.(give it position relative and iz index)
+3.IOn js select button and main div and add a eventlistener on button
+4.Inside a function create new element with the help of document.createElement menthod
+5.If you have successfully create an element print it on console te check it
+6.write innerhtml if you want
+7.use parent.appendChild method to add this new element in main div
+
+task-
+when user click on button create h1, put random quote in it (from array and possition , rotation, scale, color(optional))
+
