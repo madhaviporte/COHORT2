@@ -1,0 +1,11 @@
+setTimeout(use hota hai delay lane ke liye)
+1000--->1s
+setInterval(har value repeat hoga time jitna diye us time me)
+JS==> sync hoti hai par ham ab use async bnayenge.
+1)sync(ek sath multiple kam nahi kar skte hai)
+2)async(ek sath multiple chize kar skte hai multiple process)
+
+
+what to do?
+make a dive
+task-make a downloading effect
