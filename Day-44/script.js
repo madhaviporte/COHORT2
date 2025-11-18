@@ -37,28 +37,57 @@
 //     // console.log(div);
 //     })
 
-var btn = document.querySelector('button')
+// var btn = document.querySelector('button')
+// var main = document.querySelector('main')
+
+// var arr = ['Hey! I am Madhavi', 'Sheriyans is best',"Bhaiya is best",'harsh Bhaiya ki jay ho']
+
+// btn.addEventListener('click', function(){
+
+//     var h1 = document.createElement('h1')
+
+//     var x = Math.random()*80
+//     var y = Math.random()*80
+//     var rot = Math.random()*360
+//     var rot = Math.random()*360
+//     var rot = Math.random()*360
+//     var a = Math.random()*arr.length
+
+//     h1.innerHTML= arr[a]
+
+//     h1.style.position = 'absolute'
+
+//     h1.style.left=''
+
+//     main.appendChild(h1)
+    
+// })
+
+var btn=document.querySelector('button')
 var main = document.querySelector('main')
 
-var arr = ['Hey! I am Madhavi', 'Sheriyans is best',"Bhaiya is best",'harsh Bhaiya ki jay ho']
+btn.addEventListener('click', ()=>{
+    var div =document.createElement('div')
 
-btn.addEventListener('click', function(){
+    var x = Math.random()*100
+    var y = Math.random()*100
+    var r= Math.random()*360
 
-    var h1 = document.createElement('h1')
+    var c1 =Math.floor( Math.random()*256)    
+    var c2 =Math.floor( Math.random()*256)    
+    var c3 =Math.floor( Math.random()*256)    
 
-    var x = Math.random()*80
-    var y = Math.random()*80
-    var rot = Math.random()*360
-    var rot = Math.random()*360
-    var rot = Math.random()*360
-    var a = Math.random()*arr.length
+    
 
-    h1.innerHTML= arr[a]
+    div.style.height='50px'
+    div.style.width='50px'
+    div.style.position='absolute'
+    div.style.backgroundColor=`rgb(${c1},${c2},${c3})`
+    div.style.left = x+'%'    
+    div.style.top = y+'%'
+    div.style.rotate= r+'deg'   
 
-    h1.style.position = 'absolute'
-
-    h1.style.left=''
-
-    main.appendChild(h1)
+    
+    main.appendChild(div)
     
 })

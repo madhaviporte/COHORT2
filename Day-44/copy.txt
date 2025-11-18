@@ -1,6 +1,6 @@
 createElement is used to create new element
 
-appendChild is used to append it in any parent
+appendChild is used to append it in any parent(age line par jakr judh jay line me)
 
 1. make main tag in html, give it height and width 100%
 2.make a button and cennter it.(give it position relative and iz index)
