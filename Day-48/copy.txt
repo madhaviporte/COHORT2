@@ -1,0 +1,7 @@
+click--> sinngle click
+dblclick---> double click
+
+dets,val--> puri property bta dega kya kya ho rha hai event ke basis par.
+
+.mouseevent
+.keybordevent

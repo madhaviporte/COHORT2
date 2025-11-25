@@ -1,0 +1,1 @@
+var AllH1 =document.querySelectorAll('h1')
