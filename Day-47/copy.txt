@@ -1,0 +1,16 @@
+Array of data ko frontend me kaise show krte hai
+
+API---> j.sone form me hoti hai
+
+backent se aye huye data ko kaise ham frontend me show krte hai vo dekhna hai hame ishme.
+
+1) make an array of objects and name it users
+2) make a card in html
+3) user par lgao foreach and print hello n times
+4) make a variable sum and give it a vallue ''(empity string)
+5) add on 'helo' in sum 
+6) add on card(html code) in sum
+7) select parent (main) and put sum in its innerhtml
+8) replace sample data with real data of array of objects
+
+//pintrest(image leni ki jgha hoti hai ye)
