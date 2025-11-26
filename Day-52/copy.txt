@@ -1,0 +1,16 @@
+DOM Manipulation:
+color mixure:
+lenear-gradient:
+1)in hsl
+2)in oklab to right
+3)to right/left/up/down
+radial-gradient:
+(radius, color)
+
+radial-gradient(300px at 200px 200px , color)
+at---> denotes here that color hona kaha se start hoga kaunse position se hoga color hona.
+
+custom css variables/css properties:
+
+css me variable create krna hai to --(double highphone) se hi st hoga
+
