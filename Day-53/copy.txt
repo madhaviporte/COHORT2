@@ -1,0 +1,21 @@
+Advance CSS:
+setInterval(()=> {})---> call back bolte hai /function bhi bolte hai
+
+6 month target-->
+1)dekho or likho
+2) changes kro khudse
+
+Box-shadow
+Text-shadow
+conic-gradient
+Keyframe
+
+@karframe changeBackgroundColor{
+    from--> yha lekr jana hai{
+
+    }
+
+to----> yha takk jana hai{
+
+}
+}
