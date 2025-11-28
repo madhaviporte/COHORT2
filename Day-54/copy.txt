@@ -1,0 +1,7 @@
+@property --bgColor{
+    syntax: "<color>";
+    iniherits-value: red;
+    iniherits: false;
+}
+
+content area--->padding area--->Border area--->Margine area
