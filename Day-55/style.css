@@ -37,21 +37,7 @@ body {
     }
 }
 
-/* color, length , angle */
-/* @property --bgColor {
-    syntax: "<color>";
-    initial-value: rgb(189, 7, 143);
-    inherits: false;
-} */
 
-/* @keyframes animationBgColor {
-    from{
-        --bgColor: red;
-    }
-    to{
-        --bgColor: blue;
-    }
-} */
 .box {
     /* height: 200px;
     width: 400px;
@@ -64,21 +50,42 @@ body {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    box-shadow: 0 0 60px rgb(255, 0, 123);
+    /* box-shadow: 0 0 60px rgb(255, 0, 123); */
     border-radius: 15px;
     background:
         linear-gradient(black) padding-box,
-        conic-gradient(from 270deg, black, rgb(255, 0, 123), black);
-    border: 5px solid white;
+        conic-gradient(from var(--rotate), black, rgb(255, 0, 123), black) border-box;
+    border: 0px solid rgb(255,255,255,0);
     /* margin: 10px; */
-    animation: borderAnimate 10s;
+    animation: borderAnimate 5s;
     animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-play-state: paused;
+  transition: all 0.3s linear;
+  box-sizing: 0 0 0px rgb(255, 0,195);
+  box-shadow: 0 0 0px rgb(255, 0,195);
+  text-shadow: 0 0 0px rgb(255, 0, 123);
+  color: white;
+}
+.box:hover{
+    animation-play-state: running;
+    border-width: 5px;
+    box-shadow: 0 0 50px rgb(255, 0,123);
+    color: rgb(255, 0,123);
+  text-shadow: 0 0 10px rgb(255, 0, 123);
 
 }
-
+h1{
+    font-size: 30px;
+    font-weight: 800;
+}
+h2{
+    font-size:15px;
+    font-weight: 100;
+}
 .box img {
     width: 100%;
     /* object-fit: cover; */
-    /* padding: 3px; */
-    /* border-radius: 4px; */
+    padding: 10px;
+    border-radius: 20px;
 }
