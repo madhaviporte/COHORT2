@@ -1,0 +1,47 @@
+ADVANCED javascript
+
+#object oriented concept in js(oops)
+
+//jab code chhota hota hai fir app kuchh bhi kar skte ho bina koi guidline follow kiye and code jab badha ho jata hai tab role me ata hia guidlines
+
+ek kamra ek banda bana sakta hai
+naksha --> nahi
+architect --> nahi
+
+jab bhi badha s/w bantta hai waise code nahi likhte jaise poore dom me apne dekha hai
+
+stacky--> idher udher likhte hai code ko ek hi file me likhte hai
+
+code --> objects classes and functions
+
+fail hua code --> objects classes and functions
+
+oopa: ham ku use krte hai niche hai ans
+modular
+scalable
+manageable
+promising
+re-use 
+easy to fix
+
+1>intooduction to oops in javascript
+:oops ek tarika hai jo code idhr udhr rahti hai usko sequece me rkhne ka.
+
+2>understanding `classes` and ` object` in javascript
+object:ek bandde ki deatails ek sath rakhne ke liye apke pass hai object
+obejct :ek bandde ke bare me sari bat ek hi jgha par kkrte hai object ke madat se
+class: [blue print]class ka matlb saacha(capital letter se hi bnayenge pahla letter)
+constructor --> vo sacha chala dena/ autometic chalne wali functions
+//classes ku bnate hai --> classes bnate hai taki hame har bar ek naya object mil jay
+// classes object ki factory hai
+//classes har bar new word ke sath class run kroge to ek naya object milega
+new ---> khali jagha
+constructor--> jo hota hai vo hmare defoult ke value ko store krta hai
+constructor --> ek function jo automatic chalta hai jaise hi class se naya instanvce bnaya jata hai 
+
+3>understanding `Constructor` and `prototypes` - [`this keybord`, `call` , `appply` , `bind`]
+
+prototypes:
+this--> this ki value likhte waqt nahi(this ki value environment ke hisab se badlti hai)
+
+
