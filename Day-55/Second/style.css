@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* gap: 10px; */
+    anchor-name: --some-anchor;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    /* anchor-name: --some-anchor; */
+
+}
+.box:hover{
+    anchor-name: --some-anchor;
+}
+
+.red{
+    background-color: rgba(255, 0, 0, 0.564);
+    /* anchor-name: --some-anchor; */
+}
+.blue{
+    background-color: rgba(0, 0, 255, 0.619);
+}
+.green{
+    background-color: rgba(0, 128, 0, 0.681);
+}
+.anchor{
+    background-color: #ffffff;
+    border-radius: 10px;
+    position: absolute;
+    top:anchor(--some-anchor top);
+    left:anchor(--some-anchor left);
+    bottom: anchor(--some-anchor bottom);
+    right: anchor(--some-anchor right);
+    pointer-events: none;
+    /* height: 50px; */
+    /* width: 60px; */
+    position-anchor: --some-anchor;
+    transition: all 0.3s linear;
+    mix-blend-mode: difference;
+}

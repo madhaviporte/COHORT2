@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    /* background-color: black; */
+}
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    transition: linear;
+}
+.red{
+    background-color: rgba(255, 0, 0, 0.564);
+    /* anchor-name: --some-anchor; */
+}
+.blue{
+    background-color: rgba(0, 0, 255, 0.619);
+}
+.green{
+    background-color: rgba(0, 128, 0, 0.681);
+}
+body:has(.box:hover).box{
+    transform: scale(1.2);
+    /* opacity: 0.8; */
+}
+.box:hover{
+    transform: scale(1.2);
+}
+body .box:hover{
+    transform: scale(0.8) !important;
+    /* opacity: 0; */
+}
