@@ -1,0 +1,25 @@
+more topics in oops -- [class expression,hoisting,inheritence, getter & setter]
+
+class expression--> variable class save krte hai
+
+hoisting--> var bnanne se pahle ham useee use kr skte hai.
+
+inheritence = agr koi class hai jisme kuchh kuchh likha hia appp mantte ho ek nayi class usi ka extension hai to app wo sare features purani class se borrow kar skte ho and nayi class me use kar skte ho and apna nayi feature bhi bna skte ho
+
+Section 1: objects and OOps Thinking (foundation)
+
+1) Create a user object that stores name and email and has a login methos which prints "user logged in".
+2) imagine you now have 5 users.
+first, think how you would manage them without using a class
+then convert the same logic using a class and observe how the code becomes cleaner . write code for both approaches.
+3) Create a product object that stores name and price and has a method which return the final price after discount.
+4)the goal of this section is to understand why keeping data 
+behaviour together makes code easier to manage.
+
+section 2: Classes and Objects
+1) create a car class with the following:
+brand
+speed
+a drive method that prints the car brand and speed 
+
+2)create
