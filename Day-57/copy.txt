@@ -1,1 +1,21 @@
-new---> blanck jagha bantti hai
+// chhota code kaisa bhi likhlo chal bhi jayega par dikkt nahi ayegi par lakho line faila huwa code nahi likhte hai
+// code aisha likho:
+.modular
+.maintainable
+.scalable(puri duniya use kr ske)
+.easy to manage
+
+OOPS:
+ek object bnao ush object me sbb kuchh llikhdo jo hame chahiye sara kuchh class,constructor ke help se
+
+constructor--> ek function hai jo class ko chalane par chalti hai
+
+global-->window
+function --> window
+es5 function inside object --> object
+es6 function inside object --> window
+es5 function inside es5 function inside object --> window
+es6 function inside es5 function inside object --> object
+
+// call apply bind
+ek function me THIS ki value window hoti hai ,agr app chahte ho ki vo value windoow na ho par koi or object ho tab app use kr skte ho call apply bbind ka
