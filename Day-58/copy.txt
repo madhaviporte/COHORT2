@@ -22,4 +22,36 @@ brand
 speed
 a drive method that prints the car brand and speed 
 
-2)create
+2)create two differnt car object from the same class and verify that thir data is different.
+
+// Answer this in your own words:
+if classes did not exist, how would you write this logic and what problem might occure when the project becomes large?
+
+Section 3: Constructor or this keyword
+
+1) create a student class whose constructor accepts name and roll number.
+// add a method intoduce that prints both values.
+
+2) Inside the constructor, set values using this.
+// then try removing this and notice what error occure and why.
+
+3)Create an object with two methods:
+//one methos using a normal function
+//one method using an arrow function
+
+Section:4 Constructor Function and prototypes
+(//bina class ke bhi constructon function bantta hai
+// es6 se pahle constructor function aise banta tha)
+
+YTV= Advance js me time(2hour to 3h)
+
+// create a user constructor function (do not use class syntax),
+
+// add a login method in two ways:
+// first, inside the constructor
+// then, mmove the method to the prototype
+
+//Create two user object and compare their login methods using equality.
+//Explain why the result is true or false.
+
+//the purpose here is to understand how prototypes help share behavior efficiently.

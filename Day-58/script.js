@@ -79,16 +79,51 @@
 // };
 // console.log(product.discountedPrice());
 
-class Car {
-    constructor(brand,speed){
-        this.brand = brand;
-        this.speed = speed;
-    }
+// class Car {
+//     constructor(brand,speed){
+//         this.brand = brand;
+//         this.speed = speed;
+//     }
 
-    drive(){
-        console.log(this.brand + " - " + this.speed);
+//     drive(){
+//         console.log(this.brand + " - " + this.speed);
         
-    }
-}
-new car1 = new Car("hundey car" , 180);
-new car2 = new Car("hundey car" , 180);
+//     }
+// }
+// new car1 = new Car("hundey car" , 180);
+// new car2 = new Car("hundey car" , 170);
+
+// class student{
+//     constructor(name, rollnumber){
+//         this.name = name;
+//         this.rollnumber = rollnumber;
+//     }
+//     introduce(){
+//         console.log(this.name + " " + this.rollnumber);
+        
+//     }
+// }
+// new student("harsh", 21);
+
+// let obj = {
+//     sayName: function(){
+//         console.log(this);
+        
+//     },
+//     sayArrayName: () => {
+//         console.log(this);
+        
+//     },
+// };
+// obj.sayArrayName();
+// obj.sayName();
+
+// function User(){
+//     this.name = "harsh";
+// }
+// User.prototype.loggedin = function (){
+//     console.log("loggedin");
+    
+// };
+// let an1 = new User();
+// an1.loggedin();
