@@ -1,0 +1,34 @@
+Basics of JS
+-var, let, const
+-datatype
+-operator (+,-,*,/,&&,||,!)
+-console statement
+-conditionals
+-loops
+
+2.Arrays Object
+-method of array (push,pop,shift,unsift,length)
+-HOF(forEach, map , filter, reduce, some, find)
+-basic level question solving with array
+-use of objects
+-array of objects
+-basic questions of array of objects
+
+3. Destructuring
+-of array
+- of object
+- spread operator
+-rest operator
+
+4.Function
+-basic Function
+-arrow Function
+-return statement
+-parameter, argument
+
+5. promises, async await, fetch api
+
+6 error handling
+
+7. import export(ek file ki chize dusre file me bhej sakte hoo)
+-ek file ke ander ek hi chiz export or import hogi
