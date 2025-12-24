@@ -1,0 +1,14 @@
+Library=[ek ghar bbna rhe hai alg alg library ka use krke apne hisab se ghr bna skte hai ham]
+-Gsap(moving animmation)
+-Lenis(scrolling smoothness)
+-swiper(sliders)
+-three(3D)
+-Reactjs
+
+Framwork= ecosystem bnakr de deta hai ek bar me uske ander jo chnage krna hai kro[bna bnaya gharb le liye hai usme modify kr skte hai uske alawa kuchh nahi kr skte hai]
+-Angular
+
+//reactjs DOM bnata hai or reactDOM us bane huye tree ko connect krta hai webside se(react ko connect krta hai DOM se ReactDOM)
+
+React - UI bnana
+ReactDom - React and DOM kko connnect karna

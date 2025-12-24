@@ -1,0 +1,2 @@
+js(java script)
+jsx(java script extension) javascript+ html
