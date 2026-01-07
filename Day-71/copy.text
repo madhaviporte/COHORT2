@@ -1,0 +1,4 @@
+Components: basically ek function hota hai jinko ham alg alg jgha pe use kr skte hai.
+
+map - transform(map ek method hoti hai jo ki arr ke uper tranformation krke ek naya array create krne me help krti hai)
+filter - transform
