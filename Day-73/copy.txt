@@ -1,0 +1,8 @@
+useState:() mujhe state ko axe se use krne me help krega
+State management: react ke ander ham kisi bhi state ko manage ke pa rhe hai current , privious,upcomming state ko manage kr skte hhai
+Hooks= functional components hai
+
+snipped=
+const[num,setNum] = useState(?)
+num--> only read
+setNum--> only write krne ka kam krta hai 
