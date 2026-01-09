@@ -1,0 +1,23 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: white;
+}
+html,body{
+  width: 100%;
+  width: 100%;
+}
+body{
+  background-color: black;
+}
+form{
+  padding: 20px;
+  background-color: #333;
+  display: flex;
+  gap: 10px;
+}
+input,button{
+  padding: 5px,20px;
+  color: black;
+}

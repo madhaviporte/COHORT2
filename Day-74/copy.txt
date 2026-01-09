@@ -1,0 +1,6 @@
+Form handling(problem hai direct interact krra hai dom se)
+Two way binding
+
+form defoult nature: reload hooga har bar 
+
+Task=make a form and when we put the value inside the form they gives boxes
