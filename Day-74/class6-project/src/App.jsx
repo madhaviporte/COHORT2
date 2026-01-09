@@ -8,6 +8,7 @@ const App = () => {
         <input type="text" placeholder='Enter Phone Number' />
         <input type="text" placeholder='Enter Profile' />
         <input type="text" placeholder='Enter your address' />
+        <input type="text" placeholder='Enter your name' />
       </form>
     </div>
   )
