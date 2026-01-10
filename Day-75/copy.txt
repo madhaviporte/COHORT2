@@ -1,0 +1,1 @@
+Splice= kisi bhi element ko remove krna hoto splice ka use krte hai 
