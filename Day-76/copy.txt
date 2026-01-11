@@ -1,0 +1,11 @@
+Localstorage= hamre browser ki thori si storage hoti hai jiske andr vo data ko rkhta hai
+
+1.localStorage.clear() - to clean Localstorage
+2.localstorage.setItem("key" , "value") - to add new item or overwritr existing ones
+3.localstorage.getItem("key")-to get any item
+4.localStorage.removeItem("key")-to remove any item
+
+JSON.stringify:Array/object -->string
+JSON.parse: sting -->array/object
+
+sessionStorage= ye bhi storage ke liye kam ata hai par tab tak jab tak browser open hai bs tabtk
