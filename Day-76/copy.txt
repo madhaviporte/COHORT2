@@ -9,3 +9,9 @@ JSON.stringify:Array/object -->string
 JSON.parse: sting -->array/object
 
 sessionStorage= ye bhi storage ke liye kam ata hai par tab tak jab tak browser open hai bs tabtk
+
+
+ rafce---> function hai ye ek(app)
+ app return krta hai kuchh kuchh 
+//props[]
+//fragments[alg alg div me na bnana padhe ek hi div me sara kuchh stor kr ske ishme ye help krta hai usi ko fregment krhte hai(khali tagg jo hote hai fragment hote hai)]
