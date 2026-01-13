@@ -1,0 +1,5 @@
+useEfeect! : kisi bhi kam ko side steck me chalane ke liye
+side-stack=dusra kam pehla kam kuchh or hota hai dusra process hota hai main process kuchh or hota hai uske badhi ye perform hoga
+React: 
+1) UI banana
+2)Data Insert
