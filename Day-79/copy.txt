@@ -1,0 +1,17 @@
+React - UI banana
+React DOM - React or dom ke bich me connect krna
+React Router DOM - React ke ander router nahi ati hai
+
+React Router DOM(router perform krne ki ek library hai ye)
+Rounting: ek page se dusre page ki traf jana yehi hoti hai
+RRD is a tool which is use to perform routing 
+
+Steps tp create router
+1)-intall react-router-dom "npm i react-router-dom"
+2)-in main.jsx import {BrowserRouter} from 'react-router-dom' 
+3)-wrap <app/> by browserRouter in main.jsx file
+4)-In app.jsx import {Router,Routers} from 'react-router-dom'
+5)-make <Routes> (collection of all route) and inside <Routes></Rouutes> make <Routes>
+6)-in <Route/> mention path (where to go) and elements (what to render) attributes
+7)Use <Link> tag to redirect to any specific route
+8)Make Navbar Component as well and add it before <Routes> in <App.jsx>
