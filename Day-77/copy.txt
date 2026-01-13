@@ -1,0 +1,10 @@
+Axios[API handling]
+API: it is a bridge between frontend and backend
+CSR(client side rendering) differnce SSR(service side rendring)
+
+axios= ek alg chiz hai jisko install krna ppdhta hai pahle se nahi rhta haii.(npm i axios)
+
+axios
+.npm i axios
+.import axios from axios
+.axios.get('url) to get data from any api
