@@ -6,6 +6,7 @@ import { Link, Route, Routes } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Men from './pages/Men'
 import Women from './pages/Women'
+import RandomAbout from './pages/RandomAbout'
 
 const App = () => {
   return (
@@ -17,6 +18,9 @@ const App = () => {
         <Route path='/products' element={<Products/>}/>
         <Route path='products/men' element={<Men/>}/>
         <Route path='products/women' element={<Women/>}/>
+
+        <Route path='/about' element={<About/>}/>
+
       </Routes>
     </div>
   )

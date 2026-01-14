@@ -15,3 +15,5 @@ Steps tp create router
 6)-in <Route/> mention path (where to go) and elements (what to render) attributes
 7)Use <Link> tag to redirect to any specific route
 8)Make Navbar Component as well and add it before <Routes> in <App.jsx>
+
+Daynemic:
