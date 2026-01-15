@@ -1,0 +1,2 @@
+react ek html file ko render krta hai
+url ke change hone ke bad hame kya dikhana hai ye dicide krta hai react-router-dom(ham kya dikha skte hai yhi dicide krta hai)

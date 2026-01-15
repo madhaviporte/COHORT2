@@ -1,3 +1,8 @@
+react ek html file ko render krta hai
+
+url ke change hone ke bad hame kya dikhana hai ye dicide krta hai react-router-dom(ham kya dikha skte hai yhi dicide krta hai)
+
+
 React --> bnata hai single page Applications(URL change hone par kuchh nahi hota tha!)
 
 React-Router-DOM --> ishme ish problem ko solve kra
@@ -10,8 +15,8 @@ ReactRouterDOM-
 2) React Router DOM - browser me kkaise chalega API use krkke location btati hai history btati hai
 
 Type of Routers
--BrowserRouter
-   - it uses history API
+-BrowserRouter(99% times use)
+   - it uses History API
    - URL clean hoti hai
    - modern apps sbme use hoti hai lagbhg
    - good SEO(search engine obtimization)
@@ -29,6 +34,7 @@ drowback
     -React Native
 
 -Static Router 
+    -SSR
 
 Routes--> containers [sare raout ishke ander hi rhenge]
 Route - if URL(path) is x then show Y
