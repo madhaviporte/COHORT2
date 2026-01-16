@@ -1,0 +1,7 @@
+Context API = use for data centralization
+
+data ham direct jisko chahe usko bhej skte hai chain follow krne ki jarurt ni hai
+
+Agar context API nahi hai to data chain ke thruogh har ek ke ppas hote huye jayega isse time bahut
+
+uper se niche data bhej skte hai niche se uper data nahi bhej skte hai
