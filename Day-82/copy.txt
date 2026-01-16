@@ -1,1 +1,2 @@
-Context
+Context API 
+<Navbar/>[self closing] ye ham app.jsx me use krte the ham ishhko <Navbar></Navbar>[open,closing bracket se bhi denote ya use kr skte hai]
