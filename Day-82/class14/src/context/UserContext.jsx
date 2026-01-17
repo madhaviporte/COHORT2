@@ -1,9 +1,15 @@
-import React from 'react'
+import React, { createContext } from 'react'
 
-const UserContext = () => {
+export const userDataContext =  createContext()
+
+const UserContext = (props) => {
+  console.log(props);
+  
   return (
-    <div>
-      
+    <div className='context-div'>
+        <userDataContext>
+          {props.children}
+        </userDataContext>
     </div>
   )
 }
