@@ -1,0 +1,9 @@
+Day-2
+.program server to response to users
+.Deploy server(github par lekr jana all filr jo bnaya hai vhi hai deploy server)
+.Understanding what are APIs
+.What is RESET APIs
+.Createing mini Project with REST API 
+
+
+npx nodemon filename.js --> isse bar bar run nahi krna pdhega chnages krne ke bad recent chnages aa jayenge javascript me
