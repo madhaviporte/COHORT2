@@ -1,0 +1,10 @@
+Understanding of API
+
+: ishme do alg alg software hai jo ek dusre se intertact krte hai ek dusre se communate krte hai to ye API ke through posible hai 
+AIP: set of protocole
+
+Cat: jb hame server se info lena rhta hai tb
+Post: jab user ko kuchh bhi create krna ho vhi port hoti hai
+
+request: client side se kuchh bbhi request aa rha hai or hame use lena ha to hame request ka use krna pdhega
+response: ager server ko kuchh response kuchh data bhejna hai to response ka use krenge
