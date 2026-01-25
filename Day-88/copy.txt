@@ -1,0 +1,11 @@
+app.js ka kam:
+-server create krna
+-servar ko config krna 
+
+server.js ka kam:
+-server ko st krna
+
+params: jab hame kuchh delete krna hai to ishke help se bs ek chiz likhne me delete ho jayega jo bhi index delete krna hia bs vhi index likho pura delete ho jayega ush index ki chize.
+app.delete("/notes/:index")----> : ishka mtlb yha pas hai hame pta nahi hai kaunsi value delete hogi : ke help se jo delete krna hai vo kr skte hai
+
+backend me aisha kuchh nahi hai jo completely delete ho jaye bs yha null hota hai bs replace ho jata hai data null se

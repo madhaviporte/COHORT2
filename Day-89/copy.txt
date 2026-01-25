@@ -1,0 +1,2 @@
+server ko create krna 
+servaer ko config krna
