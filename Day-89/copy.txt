@@ -1,2 +1,13 @@
+app.js ka kam:
 server ko create krna 
 servaer ko config krna
+
+server.js ka kam:
+server ko start krna
+
+status code: ham tab use krte hai jab uska output hame generally denote krna hota hai tab krte hai code ka use
+
+jo bhi ham API create krre hai vo hmesa JSON form me hi jayega 
+
+PROBLEM:
+jab ham server ko resatart krte hai to data pura blank ho jata hai 
