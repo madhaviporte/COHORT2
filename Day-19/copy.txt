@@ -16,3 +16,6 @@ units=
 parent hai uske child ko ham em ki property denge or vo child apne parents ke hisab se size adjust krega.
 
 8. rem(16px)= pahle se value difine hoti hai ye html ke root me discribe hai uske hisab se size adjust krti hai
+(html ke root me kam krta hai parent ka bhi parent hota hai ye)
+
+Task- mentogate website
