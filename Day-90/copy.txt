@@ -1,0 +1,7 @@
+Cluster => is a combination of two thinks Strorage+processor
+Data Base
+
+cloud => Mongodb Atlas
+
+data base bhi ek server hota hai jo 
+mongo db bahut sare server produce kiye 
