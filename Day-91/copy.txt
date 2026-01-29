@@ -1,0 +1,3 @@
+node ka data store krna hai or ye store SCEMA ke throgh hota hai
+
+SCHEMA: data ham kis formate me store krwa rhe hai ush form ko ham schema kahte hai 
