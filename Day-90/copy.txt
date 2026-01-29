@@ -6,4 +6,8 @@ cloud => Mongodb Atlas
 data base bhi ek server hota hai jo 
 mongo db bahut sare server produce kiye 
 
-uri--> github me upload kabhi nahi krte hhai
+uri connect krri hi cluster se 
+
+uri--> github me upload kabhi nahi krte hai
+
+mongooseConnection--> ye data base se connect krti hai jo hmne file diya hai usse agr file nahi hai to vo create krke connnect kregi
