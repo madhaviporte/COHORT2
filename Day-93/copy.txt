@@ -1,0 +1,16 @@
+src ke ander hi config folder create krte hai or cinfig ke ander database.js file bnate hai
+
+//database file ko jab connect krte hai to usko github me upload nahi krte hai uske liye env file create krte hai jisse ki vo github me na jaye or secure rhe file
+
+Dotenv: ek file hoti hai jiske help se file github me nahi jata hai 
+ishme ham dot ke form me file store krte hai
+
+Scehma: kisi chiz ka formate bnana
+//database ki language formate ko schema bolte hai
+
+Modles:
+delete
+updation
+insertion
+
+Find: method hmesa ek array of object ke formate me hii return kregi
