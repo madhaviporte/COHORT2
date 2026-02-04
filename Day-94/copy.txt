@@ -15,4 +15,4 @@ insertion
 
 Find: method hmesa ek array of object ke formate me hii return kregi
 
-fronted me run krenge --> npm run build to ye command pure file ko sirf 3 file me bnakr de degi html,css,js react ke code ko
+// Adding frontend and backend in one facse or ye Day-93 me hi moedify kiyaa hai
