@@ -1,0 +1,7 @@
+Day-93,Day-94----> revision in Day-95 timeing 1hour and then another are ruun
+
+ishme vo file hai jo hamne frontend me react ka code likha tha bs utna hi hai react ka sara code hai ishme
+
+Frontend----->npm run build----->disk
+
+frontend--->vercel  Backend+disk--->render

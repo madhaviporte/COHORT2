@@ -5,10 +5,11 @@ const noteModel = require('./models/note.model')
 const cors = require("cors")
 const path = require("path")
 
+
 const app = express()
 app.use(cors())
 app.use(express.json()) //middlewere
-app.use(express.static("./public"))
+app.use(express.static("./public")) // public folder ke ander jitne bhi file hai resourses hai user unhe browser se access kar payega
 
 // PORT /api/note
 //create new note and save data in mongoose
