@@ -30,7 +30,7 @@ console.log("hello Integration")
   //  }) 
 function fetchNotes(){
   
-axios.get('http://localhost:3000/api/notes') // bakend ka server hai api/notes par hit krega
+axios.get('https://backend1-gules-ten.vercel.app/') // bakend ka server hai api/notes par hit krega
 .then((res)=>{
   setNotes(res.data.notes)
   
@@ -46,7 +46,7 @@ axios.get('http://localhost:3000/api/notes') // bakend ka server hai api/notes p
     const{title,description} = e.target.elements
     console.log(title.value,description.value);
 
-    axios.post("http://localhost:3000/api/notes",{
+    axios.post("https://backend1-gules-ten.vercel.app/",{
       title:title.value,
       description:description.value
     })
@@ -57,7 +57,7 @@ axios.get('http://localhost:3000/api/notes') // bakend ka server hai api/notes p
     })
   }
   function handleDeleteNote(noteId){
-   axios.delete("http://localhost:3000/api/notes/"+noteId)
+   axios.delete("https://backend1-gules-ten.vercel.app/"+noteId)
    .then(res=>{
     console.log(res.data);
     fetchNotes()
