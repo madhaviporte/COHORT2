@@ -2,4 +2,5 @@ token create server krta hai par token user ke pas hota haii
 authentication
 authorization
 validation
+Varification
 

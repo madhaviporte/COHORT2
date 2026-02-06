@@ -1,11 +1,11 @@
 Authentication
 main 4 pillor hote hia ishke
 
-1)Authenticaltion : identify krna ki request kis user ke pas se aii hai
+1)Authentication : identify krna ki request kis user ke pas se aii hai
 2)authorization : user kya kya kar skta hai
 3)validation : data ka formate check krna ki vo valid hai ya nhai yhi validation kahlata hai 
 4)verification : data sahi hai ya nahii 
 
-Token: ye register krne ke bad genrate hota hai isse pta hlta hai request kis id se aa rhi hai token means information user ka ye dono jgha gernrate hoti hai pahle user ke pas rhegii jab vo connect krne ki kosis krega tab uski copy jo usne register krne time save huwa hai match huwa to oopen ho jayega 
+Token: ye register krne ke bad genrate hota hai isse pta chlta hai request kis id se aa rhi hai token means information user ka ye dono jgha gernrate hoti hai pahle user ke pas rhegii jab vo connect krne ki kosis krega tab uski copy jo usne register krne time save huwa hai match huwa to oopen ho jayega 
 
-JWE: user sahi id hai ya dublicate hai ye decide krta hia check krke
+JWE(string hoti hai): user sahi id hai ya dublicate hai ye decide krta hia check krke 
