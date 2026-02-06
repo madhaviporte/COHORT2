@@ -1,6 +1,6 @@
 Day-2
 .program server to response to users
-.Deploy server(github par lekr jana all filr jo bnaya hai vhi hai deploy server)
+.Deploy server(github par lekr jana all file jo bnaya hai vhi hai deploy server)
 .Understanding what are APIs
 .What is RESET APIs
 .Createing mini Project with REST API 
