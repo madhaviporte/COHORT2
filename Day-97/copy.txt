@@ -1,6 +1,19 @@
 token create server krta hai par token user ke pas hota haii
-authentication
-authorization
-validation
-Varification
+authentication: user kaun hai 
+authorization: user kya kya kr skta hai 
+validation: data ka formate sahi hai ya nahi hmare pas check krna formate
+Varification: data sahi hai ya nahi ye dekhta hai
 
+user---> register----> save in database----->create token(server create krna hai)----->user(token rhta hia user kee pas)
+
+Schema: user ka data save krna database me to hame schema btana pdhta hai schema/formate
+
+model create: kuchh operation perform krne ke liye user ke upr
+
+tokens create : 1) user ka data
+                2) JWT_SECRETE
+Cokies: storage ka kam krta hai
+cokies-storage: user ka data store kr skta hai or padh bhi skta hai uuser ka data
+
+cokies: ander tokens ko ku rkhte hai???
+client kuchh bhi request krna hai server se server token se read krke request accept krta hai
