@@ -1,10 +1,26 @@
 Understanding of API
 
 : ishme do alg alg software hai jo ek dusre se intertact krte hai ek dusre se communate krte hai to ye API ke through posible hai 
-AIP: set of protocole
+AIP: set of protocole that enable different software program to communicate
+
+--> 2 softaware data exchange krre hai vo API ke throgh krte hai communicate with each other with the help of API
 
 Cat: jb hame server se info lena rhta hai tb
 Post: jab user ko kuchh bhi create krna ho vhi port hoti hai
 
 request: client side se kuchh bbhi request aa rha hai or hame use lena ha to hame request ka use krna pdhega
 response: ager server ko kuchh response kuchh data bhejna hai to response ka use krenge
+
+rest API---> 1) ager frontend or bakent communicate krre hai to vo 2 hi types ke API se honge pehla http ya fir https in dono ke alawa kuchh or hoga to vo rest API nahi hoga
+             2)
+
+
+get---> jab server se kuchh chize mangwana ho tb ham get ka use krte hai
+
+Post---> jab hame server me kuchh create krwana ho 
+
+put---> server me pahle se hai bs hame usme update krna hota hai tb use krte hai
+
+patch--->
+
+delete---> jo create kiya hai server me use hta dena

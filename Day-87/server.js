@@ -15,6 +15,14 @@ const notes = [
     // }
 ]
 
+// app.get("/", (req,res)=>{
+//     res.send("Hello world")
+// })
+
+// app.get("/about", (req,res)=>{
+//     res.send("This is About page")
+// })
+
 app.post("/notes",(req,res)=>{
 
     console.log(req.body);
