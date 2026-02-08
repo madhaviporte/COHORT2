@@ -114,6 +114,5 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
-  "devDependencies": {}
+  "type": "commonjs"
 }

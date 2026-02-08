@@ -7,3 +7,5 @@ Day-2
 
 
 npx nodemon filename.js --> isse bar bar run nahi krna pdhega chnages krne ke bad recent chnages aa jayenge javascript me
+
+Port: brwoser se connect hone ke kam me ata hai ye 1 port me ek hi function chal skta hai 
