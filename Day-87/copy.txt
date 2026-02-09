@@ -1,3 +1,5 @@
+Day-3
+
 Understanding of API
 
 : ishme do alg alg software hai jo ek dusre se intertact krte hai ek dusre se communate krte hai to ye API ke through posible hai 
