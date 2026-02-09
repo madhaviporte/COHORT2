@@ -7,6 +7,12 @@ app.js ka kam:
 server.js ka kam:
 -server ko st krna
 
+post---> server me data create krwana
+
+get---> jo hamne data create kiya usko firse retriv krna hai server se data lena
+
+delete---> cleint note ko delete kr skta hai jo hamne post se create krwai thi or get ke help se sevrver se data retrive kiya tha ab sbbkk kuchh ham delete kr skte hai delete ki help se 
+
 params: jab hame kuchh delete krna hai to ishke help se bs ek chiz likhne me delete ho jayega jo bhi index delete krna hia bs vhi index likho pura delete ho jayega ush index ki chize.
 app.delete("/notes/:index")----> : ishka mtlb yha pas hai hame pta nahi hai kaunsi value delete hogi : ke help se jo delete krna hai vo kr skte hai
 
