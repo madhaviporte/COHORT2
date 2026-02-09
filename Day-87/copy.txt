@@ -11,9 +11,15 @@ Post: jab user ko kuchh bhi create krna ho vhi port hoti hai
 request: client side se kuchh bbhi request aa rha hai or hame use lena ha to hame request ka use krna pdhega
 response: ager server ko kuchh response kuchh data bhejna hai to response ka use krenge
 
-rest API---> 1) ager frontend or bakent communicate krre hai to vo 2 hi types ke API se honge pehla http ya fir https in dono ke alawa kuchh or hoga to vo rest API nahi hoga
+rest API(post,get,fetch,put,delete)---> 1) ager frontend or bakent communicate krre hai to vo 2 hi types ke API se honge pehla http ya fir https in dono ke alawa kuchh or hoga to vo rest API nahi hoga
              2)
 
+
+--->frontend or bakend jo ek dusre se communicate krte hai ye json formate me commmunicate krte hai 
+
+postman------> hame bbahut sari tools deta hai jiske help se ham API ko create kr skte hai easy pdhta hai BROWSER me ye difficulty hoti hai API create krne me ish vjah se postman ham use krte hai easy rhti hai simple rhti hai comperatvly browser
+
+middle wear---> req.body ka data padhta hai ish ek line ke vjah se
 
 get---> jab server se kuchh chize mangwana ho tb ham get ka use krte hai
 
