@@ -1,0 +1,9 @@
+Authentication = pata krna/user kon hai/jo request aa rhi hai vo kis user ne kiya hai/ request kaunsa user kr rha hia use identify krna yhi Authentication hota hai
+
+server ke kam
+1) user ka data store krna data base me
+2) ek token create krna token--> id card milta hai jab vo register krta hai 
+
+token create----> server 
+token store ----> user
+
