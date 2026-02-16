@@ -29,3 +29,5 @@ Q)why we dont send password in response when we register a user in bolits points
 controllers----> pure main logic store hote hai
 
 multer-----> ek pakege hai jo hmare express server file ko read kr ske jo file frontend se aa rhi hoti hai 
+
+Thumbnail URl---->
