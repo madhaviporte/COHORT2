@@ -17,6 +17,14 @@ async function createPostController(req,res){
             message: "Token not provided, unathorized access"
         })
     }
+try{
+    const decoded = jwt.verify(token, process.env.JWT_SECRET)
+}catch(err){
+    return rex.status(401).json({
+        message:"user not athorized"
+    })
+}
+
 
     const decoded = jwt.verify(token, process.env.JWT_SECRET)
 
@@ -24,7 +32,8 @@ async function createPostController(req,res){
 
     const file = await imageKit.files.upload({
         file: await toFile(Buffer.from(req.file.buffer), 'file'),
-        fileName:"Test"
+        fileName:"Test",
+        folder: "cohort-2-insta-clone-posts"
     })
 
     const post = await postModel.create({
