@@ -20,7 +20,22 @@ const userSchema = new mongoose.Schema({
     profileImage: {
         type: String,
         default: "https://ik.imagekit.io/tcidpbq78/profile.jpg?updatedAt=1770905080542"
-    }
+    },
+
+    //2000
+    //id = 12 bytes
+
+//     followers:[{
+//  type: mongoose.Schema.Types.ObjectId,
+//  ref: "users"
+//     }],
+
+//     //200
+//     following:[{
+//         type: mongoose.Schema.Types.ObjectId,
+//         ref: "users"
+//     }],
+
 })
 
 
