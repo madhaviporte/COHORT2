@@ -7,11 +7,21 @@ const followSchema = new mongoose.Schema({
     },
     followee:{
         type: String,
+    },
+    status:{
+        type:String,
+        default:"active",
+        enum:{
+            value: ["pending", "accepted", "rejected"],
+            message: "status can only be pending, accepted or rejected"
+        }
     }
 },{
 timestamps: true
 
 })
+
+followSchema.index({follower: 1, followee: 1}, {unique: true})
 
 const followModel = mongoose.model("follows", followSchema)
 
