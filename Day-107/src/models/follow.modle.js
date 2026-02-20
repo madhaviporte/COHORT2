@@ -7,15 +7,15 @@ const followSchema = new mongoose.Schema({
     },
     followee:{
         type: String,
-    },
-    status:{
-        type:String,
-        default:"active",
-        enum:{
-            value: ["pending", "accepted", "rejected"],
-            message: "status can only be pending, accepted or rejected"
-        }
     }
+    // status:{
+    //     type:String,
+    //     default:"active",
+    //     enum:{
+    //         value: ["pending", "accepted", "rejected"],
+    //         message: "status can only be pending, accepted or rejected"
+    //     }
+    // }
 },{
 timestamps: true
 
