@@ -1,0 +1,3 @@
+frontend Architecture - 4 layer model(react)
+
+UI---> Hooks(orchestration)----> State layer----> API Layer
