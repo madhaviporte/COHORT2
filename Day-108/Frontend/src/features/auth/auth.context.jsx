@@ -1,5 +1,5 @@
 import { createContext,useState,useEffect } from "react";
-import {login, register,getMe} from "./services/auth.api"
+import {login, register, getMeController} from "./services/auth.api"
 
 
 export const AuthContext = createContext()
@@ -12,12 +12,12 @@ export function Authprovider({children}) {
     const [loading, setLoading] = useState(false)
 
 
-    const handleLogin = async (email, password) =>{
+    const handleLogin = async (username, password) =>{
 
         setLoading(true)
 
         try{
-        const response = await login (email,password)
+        const response = await login (username,password)
         setUser(response.user)
         }
     catch(err){
@@ -28,7 +28,7 @@ export function Authprovider({children}) {
     }
 }
 
-const handleRegister = async (username, email, password) =>{
+    const handleRegister = async (username, email, password) =>{
     setLoading(true)
 
     try{
@@ -45,7 +45,11 @@ const handleRegister = async (username, email, password) =>{
     }
 }
 
-
+return (
+    <AuthContext.Provider value={{user, loading, handleLogin, handleRegister}} >
+        {children}
+    </AuthContext.Provider>
+)
 
 
 
