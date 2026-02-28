@@ -32,12 +32,17 @@ function handleSubmit(e){
             className='form'>
                 <input 
                 onInput={(e)=>{setUsername(e.target.value)}}
-                type="text" name='username' placeholder='Enter username' />
+                type="text"
+                name='username'
+                placeholder='Enter username' />
                 
                 <input onInput={(e)=>{setPassword(e.target.value)}}
-                 type="password" name='password' placeholder='Enter password' />
+                 type="password"
+                 name='password'
+                 placeholder='Enter password' />
                 <button type='submit'>Login</button>
             </form>
+
             <p>Dont't have an account? <Link className='toggleAutherForm' to="/register">Register</Link></p>
         </div>
     </main>

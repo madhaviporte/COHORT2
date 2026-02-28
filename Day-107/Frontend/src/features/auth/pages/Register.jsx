@@ -40,7 +40,7 @@ async function handleSubmit(e){
           <input 
           onInput={(e)=>{setPassword(e.target.value)}}
           type="password" name='password' placeholder='Enter password' />
-          <button>register</button>
+          <button>Register</button>
         </form>
         
         <p>Alerdy have an account? <Link className='toggleAutherForm' to="/login">Login</Link> </p>
