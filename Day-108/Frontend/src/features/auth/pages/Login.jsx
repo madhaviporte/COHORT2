@@ -1,8 +1,8 @@
 import React, {useState} from 'react'
 import '../style/form.scss'
 import { Link } from 'react-router'
-import axios from 'axios'
 import { useAuth } from '../hooks/useAuth'
+
 
 const Login = () => {
 
@@ -13,13 +13,13 @@ const {handleLogin} = useAuth()
 
 function handleSubmit(e){
   e.preventDefault()
- 
+
   handleLogin(username, password)
   .then(res=>{
     console.log(res);
     
   })
-  
+ 
 }
 
 

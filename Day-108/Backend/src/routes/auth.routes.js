@@ -6,21 +6,17 @@ const identifyUser = require("../middlewares/auth.middlewear")
 
 const authRouter = express.Router()
 
-//POST /api/auth/register
+//POSt /api/auth/register
 
 authRouter.post('/register', authController.registerController)
 
-
-//POSt .api/auth/login
-
+//Post /api/auth/login
 authRouter.post('/login',authController.loginController)
 
-
-
-//@rouute GET /api/auth/get-me 
-//@desc Get the currently logged in user's information
+// @route GET/api/auth/get-me 
+// @desc get the currently logged in users information
 //@access Private
-
 authRouter.get("/get-me",identifyUser, authController.getMeController)
+
 
 module.exports = authRouter

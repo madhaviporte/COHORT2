@@ -1,0 +1,6 @@
+react_architechture
+
+UI layer---> UI dikhana bs kam hota hai 
+Hooks(orchestration)
+satate layer
+API layer ----> fronted and backent ka code kya hai

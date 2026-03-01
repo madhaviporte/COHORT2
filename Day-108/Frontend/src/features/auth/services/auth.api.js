@@ -1,25 +1,28 @@
-import axios from "axios"
+// authentication ka jo bhi kam hai vo pura yha hoga code
+
+import axios from "axios";
 
 const api = axios.create({
     baseURL:"http://localhost:3000",
-    withCredentials: true,
+    withCredentials:true,
 })
 
-export async function register(username, email, password){
-    try{
+export async function register(username,email, password){
+
+    try {
         const response = await api.post("/api/auth/register",{
             username,
             email,
-            password,
+            password
         })
         return response.data
     }
-    catch(err){
+    catch (err){
         throw err
     }
 }
 
-export async function login(username,password){
+export async function login(username,password) { 
     try{
         const response = await api.post("/api/auth/login",{
             username,
@@ -32,12 +35,12 @@ export async function login(username,password){
     }
 }
 
-export async function getMeController(){
+export async function getMe(){
     try{
         const response = await api.get("/get-me")
-        return response.data
+        return response.data 
     }
     catch(err){
-        throw err 
+        throw err
     }
 }
