@@ -9,7 +9,13 @@ const Login = () => {
 const[username, setUsername] = useState("")
 const[password, setPassword] = useState("")
 
-const {handleLogin} = useAuth()
+const {handleLogin,loading} = useAuth()
+
+if(loading){
+  return(
+    <h1>Loding....</h1>
+  )
+}
 
 function handleSubmit(e){
   e.preventDefault()
