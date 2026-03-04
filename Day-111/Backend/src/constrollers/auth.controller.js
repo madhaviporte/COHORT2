@@ -79,9 +79,9 @@ async function loginController(req,res){
     }
 
 
-    const ispasswordValid = await bcrypt.compare(password, user.password)
+    const isPasswordValid = await bcrypt.compare(password, user.password)
 
-    if(!ispasswordValid){
+    if(!isPasswordValid){
         return res.status(401).json({
             message: "password invalid"
         })

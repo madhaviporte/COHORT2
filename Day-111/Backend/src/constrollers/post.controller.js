@@ -13,10 +13,6 @@ const imageKit = new ImageKit({
 async function createPostController(req, res) {
 
 
-    console.log(req.body, req.file);
-
-    const token = req.cookies.token
-
 
     const file = await imageKit.files.upload({
         file: await toFile(Buffer.from(req.file.buffer), 'file'),
@@ -37,7 +33,6 @@ async function createPostController(req, res) {
 }
 
 async function getPostController(req, res) {
-    const token = req.cookies.token
 
 
 
@@ -49,7 +44,8 @@ async function getPostController(req, res) {
 
     res.status(200)
         .json({
-            message: "post fetching successfulyl"
+            message: "post fetching successfully.",
+            posts
         })
 }
 
@@ -69,7 +65,7 @@ async function getPostDetailsController(req, res) {
         })
     }
 
-    const isValidUser = post.user === userId
+    const isValidUser = post.user.toString() === userId
 
     if (!isValidUser) {
         return res.status(403).json({
@@ -137,7 +133,7 @@ async function getFeedController(req, res) {
                 post: post._id
             })
 
-            post.isLiked = !!isLiked
+            post.isLiked = Boolean(isLiked)
 
             return post
         }))
