@@ -3,3 +3,17 @@ token blacklisting(token create hone ke bad koi token ko chori naa kr le ish liy
 (store token)user ------> server(create token)
 
 each token are different create by user
+
+4 kam hote hai frontend kaa
+
+UI layer ==> UI dikhana or nevigation handle (pages,component)
+forlder---> pages and components
+
+hook layer ==> state and API handle krna
+folder---> hooks
+
+State layer ==> data store krna
+file---> auth.context.jsx,post.context.jsx
+
+API layer ==> Backend se comminate krne ke liye user kte hai
+folder---> servises/auth.api.js
