@@ -1,19 +1,18 @@
-.login-page{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+.register-page{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     min-height: 100vh;
 
-    .form-container{
+     .form-container{
         display: flex;
         flex-direction: column;
         gap: 1rem;
         padding: 2rem;
         border-radius: 0.5rem;
         min-width: 300px;
-     
-    }
-    form{
+     }
+     form{
         display: flex;
         flex-direction: column;
         gap: 1rem;
@@ -32,5 +31,5 @@
                 outline: none;
             }
         }
-    }
+     }
 }
