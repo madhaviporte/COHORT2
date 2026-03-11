@@ -16,6 +16,8 @@ file:[auth.context.jsx,post.context.jsx]
 API ===> frontend ko commuunicate krna hai backent se to ham API ka use krte hai
 folder:[service/aut.api.js]
 
+1)UI--->2)API--->3)State-->4)hook
+
 
 //react-router ke madat se ham login and register wala form create kr skte hai
 // /login ==> login form
