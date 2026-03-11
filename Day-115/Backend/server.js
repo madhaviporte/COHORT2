@@ -6,6 +6,6 @@ const connectToDB = require("./src/config/database");
 connectToDB();
 
 app.listen(3000, ()=> {
-    console.log("server iis running on 3000 port");
+    console.log("server is running on 3000 port");
     
 })
