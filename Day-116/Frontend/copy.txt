@@ -1,0 +1,5 @@
+token blacklisting(token create hone ke bad koi token ko chori naa kr le ish liye token blacklisting ka use hota hai)
+
+(store token)user ------> server(create token)
+
+each token are different create by user
