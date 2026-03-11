@@ -43,3 +43,4 @@ export const useAuth = () => {
         user,loading,handleLogin,handleRegister,handleLogout, handleGetMe
     })
 }
+
