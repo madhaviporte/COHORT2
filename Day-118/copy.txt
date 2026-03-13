@@ -1,0 +1,10 @@
+2)error-handling
+
+3)Default error handling
+
+error handling middleware use hmesa last me hota hai always last
+
+Authentication: user ko identify krna
+Authorization: 
+validation: data jo aa rha hai ush data ko check krna ki sahi form me aa rha hai ya nahi
+verification:
