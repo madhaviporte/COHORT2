@@ -1,0 +1,16 @@
+Socket.io
+
+http => user--->server
+        user<----server connection khtm
+
+socket.io => connnect rhti hai server se A=B turant msg tranfer hoti hai bin akisi ke wait ke        
+
+io => server 
+socket => single user 
+
+on => event ko listen krna
+emit => event ko fire krna
+
+socket.emit()
+socket.brodcast().emit()
+io.emit()
