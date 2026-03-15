@@ -28,7 +28,6 @@ const rl = readline.createInterface({
 
 const model = new ChatMistralAI({
     model: "mistral-small-latest",
-    apiKey: process.env.MISTRAL_API_KEY
 })
 
 const agent = createAgent({
@@ -53,4 +52,3 @@ while (true) {
 
     console.log(`\x1b[34m[AI]\x1b[0m ${response.messages[ response.messages.length - 1 ].content}`)
 }
-
