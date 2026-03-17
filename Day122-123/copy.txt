@@ -1,3 +1,0 @@
-langchain=> use foor connection with AI
-
-generative AI = 
