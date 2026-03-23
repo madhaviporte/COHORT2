@@ -1,4 +1,11 @@
-RAG: is used to augment LLM response with real-time or domain-specific data, improving accuracy, reducing hallucination, annd enabling persinzlization withoouut retraining the model.
+RAG: is used to augment LLM response
+
+
+
+
+
+
+ with real-time or domain-specific data, improving accuracy, reducing hallucination, annd enabling persinzlization withoouut retraining the model.
 
 
 Rag uuse augment LLM respoonse real time domain data, improve, accuranc reduce hallucination enable personlize wihtout retrain model
