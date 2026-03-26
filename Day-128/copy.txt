@@ -8,4 +8,14 @@ RAG: is used to augment LLM response
  with real-time or domain-specific data, improving accuracy, reducing hallucination, annd enabling persinzlization withoouut retraining the model.
 
 
-Rag uuse augment LLM respoonse real time domain data, improve, accuranc reduce hallucination enable personlize wihtout retrain model
+Rag use augment LLM respoonse real time domain data, improve, accuranc reduce hallucination enable personlize wihtout retrain model 
+
+RAG:
+.ingestion
+.vector stores
+.Retreving
+.
+
+embeding hoti hai Rag jisme kam karti hai
+
+Jada word = jada token = jada cost
