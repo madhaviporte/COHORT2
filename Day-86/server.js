@@ -2,9 +2,16 @@ const express = require("express")
 
 const app = express() // server instance create krna
 
+
+
 app.get('/', (req,res)=>{
     res.send("Hello world")
 })
+app.get('/home', (req,res)=>{
+    res.send("Hello duniya")
+})
+
+
 app.get("/about", function(req,res){
     res.send("This is about page")
 })
