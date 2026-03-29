@@ -30,6 +30,11 @@ app.post("/notes",(req,res)=>{
     res.send("note created")
 })
 
+
+
+
+
+
 app.listen(3000, ()=>{
     console.log("Server is running on port 3000")
 })
