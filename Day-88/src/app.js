@@ -1,6 +1,7 @@
 const express = require("express")
 
 
+
 const app = express() // server create ho jata hai
 
 app.use(express.json()) // middle where name
@@ -50,6 +51,7 @@ app.delete("/notes/:index", (req,res)=>{
 // req.body = {description :- "simple modified description."}
 
 app.patch("/notes/:index", (req,res)=>{
+
     notes[req.params.index].description = req.body.description
 
     res.send("Note updated successfully")
