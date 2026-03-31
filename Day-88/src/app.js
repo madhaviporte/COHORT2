@@ -54,4 +54,6 @@ app.patch("/notes/:index", (req,res)=>{
 
     res.send("Note updated successfully")
 })
+
+
 module.exports = app  // server export kr diya hai
