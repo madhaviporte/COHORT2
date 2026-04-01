@@ -1,3 +1,14 @@
 Project : AI Battle Arena
 
 idea--> user rhega or 2 model rhega jo hame ans dega or ush ans hame sahi lgta hai use ham select kr skte hai
+
+Re-search
+-Outline article
+-create article
+-check copy right issue
+   -if copyright found then re-write the article
+
+
+LangGraph: jab hame AI se kam krwana hai sequense me   
+   -noode
+   -edge
