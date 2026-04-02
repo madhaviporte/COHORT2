@@ -10,5 +10,7 @@ Re-search
 
 
 LangGraph: jab hame AI se kam krwana hai sequense me   
-   -noode
-   -edge
+   -node
+   -edge 
+
+modle we use--> gemini,pistal,cohort
