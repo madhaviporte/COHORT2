@@ -1,0 +1,6 @@
+user----> problem-----> 1) mistral 2) Gemini
+--------->judge(AI)-------> score for both solution
+------> socre more 
+
+zod=> typescript first schema validation library
+typescript me type define krne ke kam ata hai zod
