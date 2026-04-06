@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Atelier AI | The Creative Suite</title>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;600;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "primary-fixed-dim": "#d6d4d3",
+                      "primary-container": "#e5e2e1",
+                      "on-primary-fixed": "#403f3f",
+                      "surface-dim": "#d4dbdd",
+                      "on-primary-container": "#525151",
+                      "surface-container-high": "#e4e9ea",
+                      "tertiary-container": "#d0ecff",
+                      "secondary-container": "#e4e2e2",
+                      "on-error-container": "#752121",
+                      "surface-container-lowest": "#ffffff",
+                      "on-primary-fixed-variant": "#5c5b5b",
+                      "surface-container": "#ebeeef",
+                      "on-secondary": "#faf8f8",
+                      "background": "#f9f9f9",
+                      "primary": "#5f5e5e",
+                      "on-primary": "#faf7f6",
+                      "outline": "#757c7d",
+                      "tertiary-fixed-dim": "#c2def0",
+                      "error-dim": "#4e0309",
+                      "secondary": "#5f5f5f",
+                      "on-secondary-fixed-variant": "#5b5b5b",
+                      "on-tertiary-fixed-variant": "#486272",
+                      "surface-variant": "#dde4e5",
+                      "tertiary-dim": "#3c5666",
+                      "inverse-on-surface": "#9c9d9d",
+                      "secondary-fixed": "#e4e2e2",
+                      "on-error": "#fff7f6",
+                      "surface-tint": "#5f5e5e",
+                      "on-secondary-container": "#515252",
+                      "inverse-surface": "#0c0f0f",
+                      "secondary-fixed-dim": "#d5d4d4",
+                      "on-background": "#2d3435",
+                      "error-container": "#fe8983",
+                      "surface-bright": "#f9f9f9",
+                      "on-surface-variant": "#5a6061",
+                      "on-tertiary-container": "#3e5868",
+                      "outline-variant": "#adb3b4",
+                      "tertiary": "#486272",
+                      "primary-dim": "#535252",
+                      "on-tertiary": "#f4faff",
+                      "tertiary-fixed": "#d0ecff",
+                      "on-secondary-fixed": "#3f3f3f",
+                      "inverse-primary": "#ffffff",
+                      "on-surface": "#2d3435",
+                      "primary-fixed": "#e5e2e1",
+                      "error": "#9f403d",
+                      "on-tertiary-fixed": "#2c4655",
+                      "secondary-dim": "#535353",
+                      "surface": "#f9f9f9",
+                      "surface-container-low": "#f2f4f4",
+                      "surface-container-highest": "#dde4e5"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.125rem",
+                      "lg": "0.25rem",
+                      "xl": "0.5rem",
+                      "full": "0.75rem"
+              },
+              "fontFamily": {
+                      "headline": ["Manrope"],
+                      "body": ["Manrope"],
+                      "label": ["Inter"]
+              }
+            },
+          },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        }
+        ::-webkit-scrollbar {
+            width: 6px;
+        }
+        ::-webkit-scrollbar-track {
+            background: transparent;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #e4e9ea;
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #adb3b4;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body selection:bg-tertiary-container selection:text-on-tertiary-container">
+<!-- Left Sidebar: SideNavBar -->
+<aside class="hidden md:flex h-screen w-72 fixed left-0 top-0 bg-[#ebeeef] dark:bg-zinc-900 flex-col p-6 space-y-8 z-50">
+<div class="flex flex-col space-y-2">
+<div class="flex items-center space-gap-4">
+<div class="h-10 w-10 bg-primary rounded-lg flex items-center justify-center text-on-primary">
+<span class="material-symbols-outlined" data-icon="brush">brush</span>
+</div>
+<div class="ml-3">
+<h1 class="font-headline font-black text-2xl text-zinc-800 dark:text-zinc-200 tracking-tighter">Atelier</h1>
+<p class="font-label text-xs uppercase tracking-widest text-on-surface-variant opacity-70">The Creative Suite</p>
+</div>
+</div>
+</div>
+<nav class="flex-grow space-y-2">
+<div class="text-zinc-900 dark:text-white bg-white/50 dark:bg-white/10 rounded-lg flex items-center p-3 transition-all cursor-pointer">
+<span class="material-symbols-outlined mr-3" data-icon="add_circle">add_circle</span>
+<span class="font-headline text-sm font-medium">New Workspace</span>
+</div>
+<div class="text-zinc-500 hover:text-zinc-800 dark:hover:text-zinc-200 transition-all flex items-center p-3 cursor-pointer">
+<span class="material-symbols-outlined mr-3" data-icon="history">history</span>
+<span class="font-headline text-sm font-medium">Archives</span>
+</div>
+<div class="text-zinc-500 hover:text-zinc-800 dark:hover:text-zinc-200 transition-all flex items-center p-3 cursor-pointer">
+<span class="material-symbols-outlined mr-3" data-icon="folder_special">folder_special</span>
+<span class="font-headline text-sm font-medium">Collections</span>
+</div>
+<div class="text-zinc-500 hover:text-zinc-800 dark:hover:text-zinc-200 transition-all flex items-center p-3 cursor-pointer">
+<span class="material-symbols-outlined mr-3" data-icon="menu_book">menu_book</span>
+<span class="font-headline text-sm font-medium">Documentation</span>
+</div>
+</nav>
+<div class="mt-auto space-y-4">
+<div class="p-4 bg-primary rounded-xl text-on-primary text-center cursor-pointer transition-all hover:bg-primary-dim">
+<p class="font-headline font-bold text-sm">Upgrade to Pro</p>
+</div>
+<div class="flex flex-col space-y-1">
+<div class="text-zinc-500 hover:text-zinc-800 transition-all flex items-center p-2 text-xs">
+<span class="material-symbols-outlined mr-2 scale-75" data-icon="help_outline">help_outline</span>
+<span>Help</span>
+</div>
+<div class="text-zinc-500 hover:text-zinc-800 transition-all flex items-center p-2 text-xs">
+<span class="material-symbols-outlined mr-2 scale-75" data-icon="security">security</span>
+<span>Privacy</span>
+</div>
+</div>
+</div>
+</aside>
+<!-- Main Content Canvas -->
+<main class="md:ml-72 min-h-screen flex flex-col relative">
+<!-- TopNavBar -->
+<header class="w-full h-16 sticky top-0 z-50 bg-[#f9f9f9] dark:bg-zinc-950 flex items-center justify-between px-12 tonal-shift-bg">
+<div class="flex items-center space-x-2">
+<span class="font-headline font-bold text-xl tracking-tighter text-zinc-900 dark:text-white">Atelier AI</span>
+<span class="text-xs px-2 py-0.5 bg-surface-container-high rounded-full font-label text-on-surface-variant">v2.4</span>
+</div>
+<div class="flex items-center space-x-6">
+<div class="flex items-center space-x-4">
+<span class="material-symbols-outlined text-zinc-500 cursor-pointer hover:bg-zinc-200/50 p-2 rounded-full transition-colors" data-icon="tune">tune</span>
+<span class="material-symbols-outlined text-zinc-500 cursor-pointer hover:bg-zinc-200/50 p-2 rounded-full transition-colors" data-icon="settings">settings</span>
+</div>
+<div class="h-8 w-8 rounded-full bg-surface-container overflow-hidden">
+<img class="h-full w-full object-cover" data-alt="professional headshot of a creative director in a minimalist studio setting with soft natural light" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDvplcKFITVXnQ7w0Sc_y_mZTD19ImJXEF8m_tpETaQscTMOQdfwYQnmnBcIdnMZGpRMXJYxoqAzhAo4A1IFTyiKR8Q1VQ8r_M9u4tGzUjm_CFlG4p1g0-GxMHoH043_AJSEAyuBCBZjKufsQStUTqWPtBLgXt3X5_jqfTkkcdPxqy62c1CIjj-QsreEc-g-et9mR79FEJCwR_bqwkYRSA95kQzH3pNwM6l7FRlHbPKmhFhdPaDFhuqiNgGdA88cjdQ8FGxqUP5Ag"/>
+</div>
+</div>
+</header>
+<!-- Chat History Area -->
+<div class="flex-grow max-w-5xl mx-auto w-full px-12 py-16 space-y-24 mb-32">
+<!-- Message Group 1 -->
+<section class="space-y-8">
+<!-- User Prompt -->
+<div class="flex justify-start">
+<div class="bg-surface-container-low px-6 py-4 rounded-full max-w-2xl">
+<p class="font-body text-lg text-on-surface">Write a React component for a toggle switch.</p>
+</div>
+</div>
+<!-- AI Response: Multi-Solution View -->
+<div class="space-y-12">
+<div class="grid md:grid-cols-2 gap-8">
+<!-- Solution A -->
+<div class="bg-surface-container-lowest border border-outline-variant/15 p-8 rounded-xl space-y-4">
+<div class="flex items-center justify-between mb-2">
+<span class="font-label text-xs uppercase tracking-widest font-semibold text-on-surface-variant">Solution A</span>
+<span class="material-symbols-outlined text-zinc-400" data-icon="code">code</span>
+</div>
+<h3 class="font-headline font-bold text-xl">Headless Toggle</h3>
+<ul class="list-disc list-inside font-label text-sm text-on-surface-variant space-y-1">
+<li>Accessible by default</li>
+<li>State managed via hooks</li>
+<li>Framer Motion support</li>
+</ul>
+<div class="bg-surface-container-highest p-4 rounded-lg overflow-x-auto">
+<pre class="font-mono text-xs leading-relaxed"><code>const Toggle = ({ active, onChange }) =&gt; {
+  return (
+    &lt;button 
+      onClick={() =&gt; onChange(!active)}
+      className="switch"
+    &gt;
+      &lt;div className="thumb" /&gt;
+    &lt;/button&gt;
+  );
+};</code></pre>
+</div>
+</div>
+<!-- Solution B -->
+<div class="bg-surface-container-lowest border border-outline-variant/15 p-8 rounded-xl space-y-4">
+<div class="flex items-center justify-between mb-2">
+<span class="font-label text-xs uppercase tracking-widest font-semibold text-on-surface-variant">Solution B</span>
+<span class="material-symbols-outlined text-zinc-400" data-icon="terminal">terminal</span>
+</div>
+<h3 class="font-headline font-bold text-xl">Utility Switch</h3>
+<ul class="list-disc list-inside font-label text-sm text-on-surface-variant space-y-1">
+<li>Tailwind CSS driven</li>
+<li>No external deps</li>
+<li>High performance</li>
+</ul>
+<div class="bg-surface-container-highest p-4 rounded-lg overflow-x-auto">
+<pre class="font-mono text-xs leading-relaxed"><code>const Switch = () =&gt; (
+  &lt;label className="relative inline-flex"&gt;
+    &lt;input type="checkbox" className="sr-only" /&gt;
+    &lt;div className="w-11 h-6 bg-gray-200"&gt;&lt;/div&gt;
+  &lt;/label&gt;
+);</code></pre>
+</div>
+</div>
+</div>
+<!-- Judge Recommendations -->
+<div class="bg-surface-container-low p-10 rounded-2xl">
+<div class="flex items-center space-x-3 mb-6">
+<span class="material-symbols-outlined text-tertiary" data-icon="auto_awesome">auto_awesome</span>
+<h4 class="font-headline font-extrabold text-lg">Judge Evaluation</h4>
+</div>
+<div class="grid md:grid-cols-2 gap-12">
+<div>
+<div class="flex items-center space-x-2 mb-3">
+<span class="font-headline font-black text-2xl text-tertiary">9/10</span>
+<span class="font-label text-sm text-on-surface-variant">for Solution A</span>
+</div>
+<p class="text-sm leading-relaxed text-on-surface-variant">
+<strong>Reasoning:</strong> Exceptional adherence to accessibility standards (ARIA). The inclusion of motion support makes it a superior choice for high-end digital products where user experience is the primary differentiator.
+                                </p>
+</div>
+<div>
+<div class="flex items-center space-x-2 mb-3">
+<span class="font-headline font-black text-2xl text-on-surface-variant">8/10</span>
+<span class="font-label text-sm text-on-surface-variant">for Solution B</span>
+</div>
+<p class="text-sm leading-relaxed text-on-surface-variant">
+<strong>Reasoning:</strong> Highly efficient and reduces bundle size. However, it lacks the semantic depth required for assistive technologies without further manual implementation of keyboard listeners.
+                                </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Message Group 2 (Iterative) -->
+<section class="space-y-8">
+<div class="flex justify-start">
+<div class="bg-surface-container-low px-6 py-4 rounded-full max-w-2xl">
+<p class="font-body text-lg text-on-surface">Refine Solution A to include TypeScript interfaces.</p>
+</div>
+</div>
+<div class="space-y-12">
+<div class="grid md:grid-cols-2 gap-8">
+<!-- Solution A.1 -->
+<div class="bg-surface-container-lowest border border-outline-variant/15 p-8 rounded-xl space-y-4">
+<div class="flex items-center justify-between mb-2">
+<span class="font-label text-xs uppercase tracking-widest font-semibold text-on-surface-variant">Solution A.1</span>
+<span class="material-symbols-outlined text-zinc-400" data-icon="data_object">data_object</span>
+</div>
+<h3 class="font-headline font-bold text-xl">Typed Component</h3>
+<div class="bg-surface-container-highest p-4 rounded-lg overflow-x-auto">
+<pre class="font-mono text-xs leading-relaxed"><code>interface Props {
+  isEnabled: boolean;
+  onToggle: (v: boolean) =&gt; void;
+  label?: string;
+}
+
+export const Switch: FC&lt;Props&gt; = (props) =&gt; {
+  // Logic here
+}</code></pre>
+</div>
+</div>
+<!-- Placeholder/Comparison Side -->
+<div class="bg-surface-container border border-dashed border-outline-variant/30 p-8 rounded-xl flex items-center justify-center opacity-50">
+<p class="font-label text-sm italic">Waiting for specific secondary variant criteria...</p>
+</div>
+</div>
+<div class="bg-surface-container-low p-10 rounded-2xl">
+<div class="flex items-center space-x-3 mb-6">
+<span class="material-symbols-outlined text-tertiary" data-icon="verified">verified</span>
+<h4 class="font-headline font-extrabold text-lg">Technical Validation</h4>
+</div>
+<div class="space-y-4">
+<div class="flex items-center space-x-2">
+<span class="font-headline font-black text-2xl text-tertiary">10/10</span>
+<span class="font-label text-sm text-on-surface-variant">Validation Score</span>
+</div>
+<p class="text-sm leading-relaxed text-on-surface-variant">
+<strong>Reasoning:</strong> The interface definitions are exhaustive, covering optional properties and specific event return types. This implementation minimizes runtime errors and provides excellent developer ergonomics in VS Code environments.
+                            </p>
+</div>
+</div>
+</div>
+</section>
+</div>
+<!-- Sticky Footer Input Area -->
+<footer class="fixed bottom-0 left-0 md:left-72 right-0 bg-gradient-to-t from-background via-background to-transparent pt-12 pb-8 px-12 z-40">
+<div class="max-w-4xl mx-auto">
+<div class="bg-surface-container-lowest border border-outline-variant/20 rounded-full flex items-center p-2 shadow-[0_20px_40px_rgba(45,52,53,0.06)] backdrop-blur-md">
+<button class="p-3 text-on-surface-variant hover:bg-surface-container-high rounded-full transition-colors">
+<span class="material-symbols-outlined" data-icon="add">add</span>
+</button>
+<input class="flex-grow bg-transparent border-none focus:ring-0 text-on-surface px-4 font-body" placeholder="Describe your creative vision..." type="text"/>
+<button class="bg-primary text-on-primary p-3 rounded-full hover:bg-primary-dim transition-all flex items-center justify-center">
+<span class="material-symbols-outlined" data-icon="arrow_upward">arrow_upward</span>
+</button>
+</div>
+<div class="mt-4 flex justify-center space-x-6">
+<span class="font-label text-[10px] uppercase tracking-tighter text-on-surface-variant opacity-50">GPT-4 Atelier Model</span>
+<span class="font-label text-[10px] uppercase tracking-tighter text-on-surface-variant opacity-50">Markdown Supported</span>
+<span class="font-label text-[10px] uppercase tracking-tighter text-on-surface-variant opacity-50">Private Instance</span>
+</div>
+</div>
+</footer>
+</main>
+</body></html>
