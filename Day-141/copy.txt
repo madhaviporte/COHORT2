@@ -1,0 +1,7 @@
+Google OAuth Flow
+
+1)clint  2)server 3)Google
+
+Client ID Client secret
+
+passport and passport-google-oauth20
