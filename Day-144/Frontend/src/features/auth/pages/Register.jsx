@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useAuth } from "../hook/useAuth"
-import { useNavigate } from 'react-router';
+import {Link, useNavigate } from 'react-router';
 
 const Register = () => {
 
@@ -147,6 +147,11 @@ const Register = () => {
                             </div>
                             <label htmlFor="isSeller" className="text-sm text-[#e5e2e1] group-hover:text-[#FFD700] cursor-pointer select-none transition-colors duration-300">Register as Seller</label>
                         </div>
+
+                       <a href="/api/auth/google"
+                            className="text-sm underline text-[#e5e2e1] group-hover:text-[#FFD700] cursor-pointer select-none transition-colors duration-300"
+                        >Continue with Google</a>
+
 
                         {/* Submit Button */}
                         <button
