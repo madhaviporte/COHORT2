@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useAuth } from "../hook/useAuth"
 import {Link, useNavigate } from 'react-router';
+import ContinueWithGoogle from '../components/ContinueWithGoogle';
 
 const Register = () => {
 
@@ -47,8 +48,8 @@ const Register = () => {
                 />
 
                 {/* Gradient overlays to merge image nicely into the dark background */}
-                <div className="absolute inset-0 bg-gradient-to-t from-[#0e0e0e] via-transparent to-transparent opacity-90"></div>
-                <div className="absolute inset-0 bg-gradient-to-r from-[#0e0e0e]/50 via-transparent to-[#0e0e0e] opacity-90"></div>
+                <div className="absolute inset-0 bg-linear-to-t from-[#0e0e0e] via-transparent to-transparent opacity-90"></div>
+                <div className="absolute inset-0 bg-linear-to-r from-[#0e0e0e]/50 via-transparent to-[#0e0e0e] opacity-90"></div>
 
                 <div className="relative z-10 p-16 flex flex-col h-full justify-between w-full max-w-2xl">
                     <h2 className="text-[#FFD700] text-xl font-bold tracking-widest uppercase">Snitch.</h2>
@@ -56,7 +57,7 @@ const Register = () => {
                     <div className="mt-auto">
                         <p className="text-5xl lg:text-6xl font-bold tracking-tighter leading-[1.1] text-white mb-6">
                             Define your <br />
-                            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#e9c400] to-[#ffd700]">aesthetic.</span>
+                            <span className="text-transparent bg-clip-text bg-lenear-to-r from-[#e9c400] to-[#ffd700]">aesthetic.</span>
                         </p>
                         <p className="text-[#d0c6ab] max-w-md text-lg leading-relaxed">
                             Join the exclusive movement of creators and brands redefining the modern fashion landscape.
@@ -148,18 +149,18 @@ const Register = () => {
                             <label htmlFor="isSeller" className="text-sm text-[#e5e2e1] group-hover:text-[#FFD700] cursor-pointer select-none transition-colors duration-300">Register as Seller</label>
                         </div>
 
-                       <a href="/api/auth/google"
-                            className="text-sm underline text-[#e5e2e1] group-hover:text-[#FFD700] cursor-pointer select-none transition-colors duration-300"
-                        >Continue with Google</a>
+                       
 
 
                         {/* Submit Button */}
                         <button
                             type="submit"
-                            className="mt-6 w-full bg-gradient-to-r from-[#e9c400] to-[#ffd700] text-[#131313] font-bold tracking-wide py-4 px-8 rounded hover:shadow-[0_0_20px_rgba(255,215,0,0.3)] hover:-translate-y-0.5 active:translate-y-0 transition-all duration-300"
+                            className="mt-6 w-full bg-linear-to-r from-[#e9c400] to-[#ffd700] text-[#131313] font-bold tracking-wide py-4 px-8 rounded hover:shadow-[0_0_20px_rgba(255,215,0,0.3)] hover:-translate-y-0.5 active:translate-y-0 transition-all duration-300"
                         >
                             Sign Up
                         </button>
+
+<ContinueWithGoogle/>
 
                         <div className="text-center mt-6">
                             <a href="/login" className="text-sm text-[#999077] hover:text-[#FFD700] transition-colors border-b border-transparent hover:border-[#FFD700] py-0.5">
