@@ -4,7 +4,6 @@ import { uploadFile } from "../services/storage.service.js";
 
 export async function createProduct(req, res) {
 
-    
     const { title, description, priceAmount, priceCurrency } = req.body;
     const seller = req.user;
 
@@ -46,7 +45,7 @@ export async function getSellerProducts(req, res) {
         success: true,
         products
     })
-    }
+}
 
 export async function getAllProducts(req, res) {
     const products = await productModel.find()
@@ -56,7 +55,7 @@ export async function getAllProducts(req, res) {
         success: true,
         products
     })
-    }
+}
 
 export async function getProductDetails(req, res) {
     const { id } = req.params;
@@ -75,7 +74,7 @@ export async function getProductDetails(req, res) {
         success: true,
         product
     })
-    }
+}
 
 
 export async function addProductVariant(req, res) {
@@ -129,4 +128,5 @@ export async function addProductVariant(req, res) {
         success: true,
         product
     })
+
 }
