@@ -285,19 +285,6 @@ const ProductDetail = () => {
                                         e.currentTarget.style.color = '#fbf9f6';
                                     }}
                                     onClick={() => {
-
-                                         const variant = activeVariant || product?.variants?.[0];
-
-  if (!variant) {
-        console.warn("No variant available");
-        return;
-    }
-
-
-    console.log("CLICKED");
-    console.log("PRODUCT:", product);
-    console.log("VARIANT:", variant);
-
                                         handleAddItem({
                                             productId: product._id,
                                             variantId: activeVariant._id
