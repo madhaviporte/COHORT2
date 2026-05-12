@@ -22,7 +22,7 @@ const tokens = {
 
 const Cart = () => {
     const cartItems = useSelector(state => state.cart.items)
-    const { handleGetCart } = useCart()
+    const { handleGetCart, handleIncrementCartItem } = useCart()
     const navigate = useNavigate()
 
     /* Local quantity state — key: cartItem._id, value: number */
@@ -304,9 +304,9 @@ const Cart = () => {
                                                             {qty}
                                                         </span>
                                                         <button
-                                                            id={`qty-inc-${_id}`}
-                                                            onClick={() => changeQty(_id, 1)}
-                                                            className="w-9 h-9 flex items-center justify-center text-sm font-light transition-colors hover:opacity-60"
+id={`qty-inc-${_id}`}
+   onClick={() => handleIncrementCartItem({productId:_id ,variantId}) }
+className="w-9 h-9 flex items-center justify-center text-sm font-light transition-colors hover:opacity-60"
                                                             style={{ color: tokens.onSurface, borderLeft: `1px solid ${tokens.outlineVariant}` }}
                                                             aria-label="Increase quantity"
                                                         >
