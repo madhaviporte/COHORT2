@@ -1,0 +1,12 @@
+=> Understanding the problem/ feature we have to implement
+=> Break into solution into multiple small tasks
+=> implement the most easy part first
+=> Expand 
+
+
+Q1) only seller can create new product and the product created by seller should be visivle to the seller at some page
+
+.) seller can create new produucts   .)seller can see product created by him/her
+
+..) APIs ---> model
+        ---> make APIs Protected
