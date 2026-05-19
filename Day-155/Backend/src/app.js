@@ -17,9 +17,10 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 app.use(cors({
     origin: ["http://localhost:5173",
-        "https://cohort-2-mocha.vercel.app"
+        "https://cohort-2-mocha.vercel.app",
     ],
     methods: [ "GET", "POST", "PUT", "DELETE" ],
+    origin: true,
     credentials: true
 }))
 
