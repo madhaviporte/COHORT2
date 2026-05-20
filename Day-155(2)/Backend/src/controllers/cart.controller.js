@@ -140,6 +140,62 @@ export const incrementCartItemQuantity = async (req, res) => {
     })
     }
 
+export const decrementCartItemQuantity = async (req, res) => {
+    const { productId, variantId } = req.params
+
+    const cart = await cartModel.findOne({ user: req.user._id })
+
+    if (!cart) {
+        return res.status(404).json({
+            message: "Cart not found",
+            success: false
+        })
+    }
+
+    const item = cart.items.find(item => item.product.toString() === productId && item.variant?.toString() === variantId)
+
+    if (!item) {
+        return res.status(404).json({
+            message: "Item not found in cart",
+            success: false
+        })
+    }
+
+    if (item.quantity > 1) {
+        item.quantity -= 1
+    }
+
+    await cart.save()
+
+    return res.status(200).json({
+        message: "Cart item quantity decremented successfully",
+        success: true
+    })
+}
+
+export const removeFromCart = async (req, res) => {
+    const { productId, variantId } = req.params
+
+    const cart = await cartModel.findOne({ user: req.user._id })
+
+    if (!cart) {
+        return res.status(404).json({
+            message: "Cart not found",
+            success: false
+        })
+    }
+
+    cart.items = cart.items.filter(item => item.product.toString() !== productId || item.variant?.toString() !== variantId)
+
+    await cart.save()
+
+    return res.status(200).json({
+        message: "Item removed from cart successfully",
+        success: true
+    })
+}
+
+
 export const createOrderController = async (req, res) => {
 
 
