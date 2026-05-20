@@ -292,9 +292,11 @@ const ProductDetail = () => {
                                     onMouseLeave={e => {
                                         e.currentTarget.style.borderColor = '#d0c5b5';
                                     }}
+                                    onClick={() => navigate("/cart")}
                                 >
                                     Buy Now
                                 </button>
+
                             </div>
 
                             {/* Extra elegant details */}
