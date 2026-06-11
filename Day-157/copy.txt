@@ -1,0 +1,17 @@
+DOCKER:
+problem ko solve krke deta hai jab multiple devloper ek hi project pr kam krte hai to system differnet ho skte hai to sare ke me equal chale bin akisi issue ke ye DOCKER ka kam hota hai ish problem ko solve krke dena
+
+Express Server =
+1)Codebase - routes, controllers
+2)Dependencies- express , mongoose, .environment 3)Node
+4)OS 
+
+ye charo ka ek compilation hai ek = Image kahte hai ishko
+
+the combination of all exopress server that makes a single file throgh compilation that is known as Image 
+
+Container: jab ham 1 Image ko run ya execute kra dete hai vo image ban jatii hai
+
+= in 4 chizo se bna hota hai Server DOCKER ye sbke system ka development environment same kr deta hai
+
+OS--> Hardware ko manage krna or use krne ke kam me ata hai 
