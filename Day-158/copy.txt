@@ -1,0 +1,9 @@
+cache
+step-1 FROM node-20-alpine
+step-2 COPY package.json .
+step-3 RUN npm install
+step-5 COPY..
+
+docker run -p 8080:3000 express_server
+
+-p = port mapping

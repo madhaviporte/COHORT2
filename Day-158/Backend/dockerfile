@@ -1,0 +1,11 @@
+FROM node:20-alpine
+# (last pushed q week ago)
+
+COPY package.json .
+COPY package-lock.json .
+
+RUN npm install  
+
+COPY . .
+
+CMD ["node", "server.js"]
