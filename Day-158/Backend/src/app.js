@@ -15,4 +15,14 @@ app.get('/api/data', (res,req)=>{
     }
     res.json(data);
 })
+
+app.get('/api/users', (req,res) => {
+    const users = [
+        {id: 1, name: 'Alice'},
+        {id: 2, name: 'Bob'},
+        {id: 3, name: 'Charlie'},
+    ];
+    res.json(users);
+})
+
 export default app;
