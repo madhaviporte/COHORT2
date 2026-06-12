@@ -1,0 +1,4 @@
+Local Development
+
+-frontend (vite 5173)
+-backend (express 3000)
