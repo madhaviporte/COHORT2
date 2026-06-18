@@ -3,7 +3,8 @@ problem ko solve krke deta hai jab multiple devloper ek hi project pr kam krte h
 
 Express Server =
 1)Codebase - routes, controllers
-2)Dependencies- express , mongoose, .environment 3)Node
+2)Dependencies - express , mongoose, .env 
+3)Node - run time environment 
 4)OS 
 
 ye charo ka ek compilation hai ek = Image kahte hai ishko
