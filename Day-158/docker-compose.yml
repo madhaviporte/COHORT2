@@ -5,5 +5,10 @@ services:
     ports:
       - "8080:3000"
     volumes:
-      - ./Backend:/  
+      - ./Backend:/app
+      - backend_node_modules:/app/backend_node_modules
+    command: npx nodemon -L server.js
+
+volumes:
+  backend_node_modules:       
   
