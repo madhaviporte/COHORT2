@@ -23,7 +23,7 @@ const tokens = {
 
 const Cart = () => {
     const cart = useSelector(state => state.cart)
-    const { handleGetCart, handleIncrementCartItem, handleCreateCartOrder, handleVerifyCartOrder } = useCart()
+    const { handleGetCart, handleIncrementCartItem, handleDecrementCartItem, handleRemoveCartItem, handleCreateCartOrder, handleVerifyCartOrder } = useCart()
     const navigate = useNavigate()
     const { error, isLoading, Razorpay } = useRazorpay();
     const user = useSelector(state => state.user)
@@ -34,6 +34,19 @@ const Cart = () => {
     useEffect(() => {
         handleGetCart()
     }, [])
+
+    useEffect(() => {
+        if (cart?.items) {
+            const newQuantities = {}
+            cart.items.forEach(item => {
+                const itemId = item.product?._id || item.product
+                if (itemId) {
+                    newQuantities[itemId] = item.quantity
+                }
+            })
+            setQuantities(newQuantities)
+        }
+    }, [cart?.items])
 
 
     const changeQty = (id, delta) => {
@@ -64,7 +77,7 @@ const Cart = () => {
 
 
         const options = {
-            key: "rzp_test_ShNSkpxt3emQVJ",
+            key: "rzp_test_SmU3qH6DSN2ZYF",
             amount: order.amount, // Amount in paise
             currency: order.currency,
             name: "Snitch",
@@ -225,7 +238,7 @@ const Cart = () => {
                                         >
                                             {/* Product Image */}
                                             <div
-                                                className="flex-shrink-0 overflow-hidden"
+                                                className="shrink-0 overflow-hidden"
                                                 style={{
                                                     width: 'clamp(100px, 15vw, 160px)',
                                                     aspectRatio: '4/5',
@@ -319,7 +332,17 @@ const Cart = () => {
                                                     >
                                                         <button
                                                             id={`qty-dec-${_id}`}
-                                                            onClick={() => changeQty(_id, -1)}
+                                                            onClick={async () => {
+                                                                const currentQty = qty;
+                                                                if (currentQty > 1) {
+                                                                    changeQty(_id, -1);
+                                                                    try {
+                                                                        await handleDecrementCartItem({ productId: _id, variantId });
+                                                                    } catch (err) {
+                                                                        changeQty(_id, 1);
+                                                                    }
+                                                                }
+                                                            }}
                                                             className="w-9 h-9 flex items-center justify-center text-sm font-light transition-colors hover:opacity-60"
                                                             style={{ color: tokens.onSurface, borderRight: `1px solid ${tokens.outlineVariant}` }}
                                                             aria-label="Decrease quantity"
@@ -334,7 +357,14 @@ const Cart = () => {
                                                         </span>
                                                         <button
                                                             id={`qty-inc-${_id}`}
-                                                            onClick={() => handleIncrementCartItem({ productId: _id, variantId })}
+                                                            onClick={async () => {
+                                                                changeQty(_id, 1);
+                                                                try {
+                                                                    await handleIncrementCartItem({ productId: _id, variantId });
+                                                                } catch (err) {
+                                                                    changeQty(_id, -1);
+                                                                }
+                                                            }}
                                                             className="w-9 h-9 flex items-center justify-center text-sm font-light transition-colors hover:opacity-60"
                                                             style={{ color: tokens.onSurface, borderLeft: `1px solid ${tokens.outlineVariant}` }}
                                                             aria-label="Increase quantity"
@@ -348,6 +378,7 @@ const Cart = () => {
                                                         id={`remove-${_id}`}
                                                         className="text-[10px] uppercase tracking-[0.22em] font-medium transition-all duration-200 hover:underline hover:opacity-70"
                                                         style={{ color: tokens.muted }}
+                                                        onClick={() => handleRemoveCartItem({ productId: _id, variantId })}
                                                     >
                                                         Remove
                                                     </button>
@@ -426,7 +457,7 @@ const Cart = () => {
                                             Shipping
                                         </span>
                                         <span
-                                            className="text-[10px] uppercase tracking-[0.1em]"
+                                            className="text-[10px] uppercase tracking-widest"
                                             style={{ color: cart.totalPrice >= 15000 ? '#5a7a5a' : tokens.muted }}
                                         >
                                             {cart.totalPrice >= 15000 ? 'Complimentary' : `Complimentary over INR 15,000`}
@@ -441,7 +472,7 @@ const Cart = () => {
                                             Duties & Taxes
                                         </span>
                                         <span
-                                            className="text-[10px] uppercase tracking-[0.1em]"
+                                            className="text-[10px] uppercase tracking-widest"
                                             style={{ color: tokens.muted }}
                                         >
                                             Included

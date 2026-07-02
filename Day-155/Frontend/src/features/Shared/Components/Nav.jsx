@@ -1,11 +1,18 @@
 import React from 'react'
 import { useSelector } from 'react-redux'
 import { useNavigate, Link } from 'react-router'
+import { useAuth } from '../../auth/hook/useAuth'
 
 const Nav = () => {
     const navigate = useNavigate()
     const user = useSelector(state => state.auth.user)
     const cartItems = useSelector(state => state.cart?.items)
+    const { handleLogout } = useAuth()
+
+    const onLogout = async () => {
+        await handleLogout()
+        navigate('/login')
+    }
 
     return (
         <nav className="px-8 lg:px-16 xl:px-24 pt-10 pb-6 flex items-center justify-between border-b" style={{ borderColor: '#e4e2df' }}>
@@ -19,6 +26,14 @@ const Nav = () => {
                 {user ? (
                     <>
                         <span style={{ color: '#1b1c1a' }}>{user.fullname}</span>
+                        <button
+                            id="logout-btn"
+                            onClick={onLogout}
+                            className="transition-colors hover:text-[#C9A96E] cursor-pointer"
+                            style={{ border: 'none', background: 'none', color: '#7A6E63', font: 'inherit', padding: 0 }}
+                        >
+                            Logout
+                        </button>
                         {user.role === 'seller' && (
                             <Link to="/seller/dashboard" className="transition-colors hover:text-[#C9A96E]">Seller Dashboard</Link>
                         )}
