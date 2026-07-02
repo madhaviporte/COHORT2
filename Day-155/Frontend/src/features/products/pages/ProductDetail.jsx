@@ -1,5 +1,6 @@
 import React, { useEffect, useState, useMemo } from 'react';
 import { useParams, Link, useNavigate } from 'react-router';
+import { useSelector } from 'react-redux';
 import { useProduct } from '../hooks/useProduct';
 import { useCart } from '../../cart/hook/useCart';
 
@@ -11,6 +12,7 @@ const ProductDetail = () => {
     const navigate = useNavigate();
     const { handleGetProductById } = useProduct();
     const { handleAddItem } = useCart()
+    const cartItems = useSelector(state => state.cart?.items)
 
 
 
@@ -47,6 +49,30 @@ const ProductDetail = () => {
             return vKeys.length === sKeys.length && isMatch;
         });
     }, [ product, selectedAttributes ]);
+
+    const handleBuyNow = async () => {
+        if (!product || !activeVariant) return;
+
+        const itemInCart = cartItems?.find(
+            item => 
+                (item.product?._id === product._id || item.product === product._id) && 
+                (item.variant?._id === activeVariant._id || item.variant === activeVariant._id)
+        );
+
+        if (itemInCart) {
+            navigate('/cart');
+        } else {
+            try {
+                await handleAddItem({
+                    productId: product._id,
+                    variantId: activeVariant._id
+                });
+                navigate('/cart');
+            } catch (error) {
+                console.error("Failed to add item to cart on Buy Now", error);
+            }
+        }
+    };
 
 
     console.log({ product, activeVariant })
@@ -292,6 +318,7 @@ const ProductDetail = () => {
                                     onMouseLeave={e => {
                                         e.currentTarget.style.borderColor = '#d0c5b5';
                                     }}
+                                    onClick={handleBuyNow}
                                 >
                                     Buy Now
                                 </button>

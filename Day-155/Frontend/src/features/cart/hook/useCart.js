@@ -26,7 +26,11 @@ export const useCart = () => {
 
     async function handleDecrementCartItem({ productId, variantId }) {
         await decrementCartItemApi({ productId, variantId })
-        await handleGetCart()
+        try {
+            await handleGetCart()
+        } catch (err) {
+            // handleGetCart failure should not roll back the decrement
+        }
     }
 
     async function handleRemoveCartItem({ productId, variantId }) {

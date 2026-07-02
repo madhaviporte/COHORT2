@@ -224,7 +224,7 @@ const Cart = () => {
                                     const variantDetail = getVariantDetails(product, variantId)
                                     const imageUrl = getDisplayImage(product, variantDetail)
                                     const displayPrice = price ?? variantDetail?.price ?? product?.price
-                                    const qty = quantities[ _id ] ?? item.quantity ?? 1
+                                    const qty = item.quantity ?? 1
                                     const attributes = variantDetail?.attributes ?? {}
                                     const stock = variantDetail?.stock
                                     const variantPrice = variantDetail?.price

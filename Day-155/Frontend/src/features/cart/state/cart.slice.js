@@ -10,6 +10,7 @@ const cartSlice = createSlice({
     },
     reducers: {
         setCart: (state, action) => {
+            if (!action.payload) return;
             state.items = action.payload.items;
             state.totalPrice = action.payload.totalPrice;
             state.currency = action.payload.currency;
