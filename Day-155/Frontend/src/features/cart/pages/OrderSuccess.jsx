@@ -33,7 +33,7 @@ const OrderSuccess = () => {
                 className="min-h-screen pb-24 selection:bg-[#C9A96E]/30"
                 style={{ backgroundColor: tokens.surface, fontFamily: "'Inter', sans-serif" }}
             >
-                <main className="pt-12 lg:pt-20 px-6 md:px-12 lg:px-24 max-w-7xl mx-auto">
+                <main className="pt-12 lg:pt-20 px-4 sm:px-8 md:px-12 lg:px-24 max-w-7xl mx-auto">
                     <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-start">
                         
                         {/* Left Column: Success Message & Summary */}
@@ -69,7 +69,7 @@ const OrderSuccess = () => {
                             </section>
                             
                             <section 
-                                className="p-8 md:p-12 space-y-8"
+                                className="p-5 sm:p-8 md:p-12 space-y-8"
                                 style={{ backgroundColor: tokens.surfaceLow }}
                             >
                                 <h3 

@@ -82,13 +82,13 @@ const Login = () => {
 
                 {/* ── RIGHT: Form Panel ── */}
                 <div
-                    className="w-full lg:w-1/2 flex items-center justify-center min-h-screen px-8 sm:px-14 lg:px-20 py-16"
+                    className="w-full lg:w-1/2 flex items-center justify-center min-h-screen px-5 sm:px-10 lg:px-20 py-12 sm:py-16"
                     style={{ backgroundColor: '#fbf9f6' }}
                 >
                     <div className="w-full max-w-sm">
 
                         {/* Mobile brand mark */}
-                        <div className="lg:hidden mb-14">
+                        <div className="lg:hidden mb-8 sm:mb-14">
                             <span
                                 className="text-sm tracking-[0.35em] uppercase"
                                 style={{ fontFamily: "'Cormorant Garamond', serif", color: '#C9A96E' }}
@@ -106,7 +106,7 @@ const Login = () => {
                                 Sign in to Snitch
                             </p>
                             <h1
-                                className="text-[2.6rem] xl:text-5xl font-light leading-[1.1]"
+                                className="text-[2rem] sm:text-[2.6rem] xl:text-5xl font-light leading-[1.1]"
                                 style={{ fontFamily: "'Cormorant Garamond', serif", color: '#1b1c1a' }}
                             >
                                 Enter the Vault

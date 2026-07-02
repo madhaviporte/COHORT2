@@ -119,7 +119,7 @@ const Cart = () => {
                 >
                     {/* Nav */}
                     <nav
-                        className="px-8 lg:px-16 xl:px-24 pt-10 pb-6 flex items-center justify-between"
+                        className="px-4 sm:px-8 lg:px-16 xl:px-24 pt-10 pb-6 flex items-center justify-between"
                         style={{ borderBottom: `1px solid ${tokens.surfaceHighest}` }}
                     >
                         <Link
@@ -190,7 +190,7 @@ const Cart = () => {
 
 
                 {/* ── Main Content ── */}
-                <div className="max-w-7xl mx-auto px-8 lg:px-16 xl:px-24 pt-12 lg:pt-20">
+                <div className="max-w-7xl mx-auto px-4 sm:px-8 lg:px-16 xl:px-24 pt-12 lg:pt-20">
                     <div className="flex flex-col lg:flex-row gap-12 lg:gap-20 items-start">
 
                         {/* ═══════════════════════════════════════════════
@@ -393,7 +393,7 @@ const Cart = () => {
 
                             {/* Policy strip */}
                             <div
-                                className="mt-10 pt-8 grid grid-cols-3 gap-4 text-[10px] uppercase tracking-[0.12em]"
+                                className="mt-10 pt-8 grid grid-cols-1 sm:grid-cols-3 gap-4 text-[10px] uppercase tracking-[0.12em]"
                                 style={{ borderTop: `1px solid ${tokens.surfaceHighest}`, color: tokens.muted }}
                             >
                                 <div>

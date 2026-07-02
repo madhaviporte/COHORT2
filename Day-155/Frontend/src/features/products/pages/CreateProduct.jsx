@@ -92,7 +92,7 @@ const CreateProduct = () => {
                 className="min-h-screen selection:bg-[#C9A96E]/30"
                 style={{ backgroundColor: '#fbf9f6', fontFamily: "'Inter', sans-serif" }}
             >
-                <div className="max-w-6xl mx-auto px-8 lg:px-16 xl:px-24">
+                <div className="max-w-6xl mx-auto px-4 sm:px-8 lg:px-16 xl:px-24">
 
                     {/* ── Top Bar ── */}
                     <div className="pt-10 pb-0 flex items-center gap-5">
@@ -245,7 +245,7 @@ const CreateProduct = () => {
                                         onDragOver={handleDragOver}
                                         onDragLeave={handleDragLeave}
                                         onClick={() => fileInputRef.current?.click()}
-                                        className="border border-dashed px-8 py-14 lg:py-20 flex flex-col items-center gap-4 cursor-pointer transition-all duration-300"
+                                        className="border border-dashed px-4 sm:px-8 py-10 sm:py-14 lg:py-20 flex flex-col items-center gap-4 cursor-pointer transition-all duration-300"
                                         style={{
                                             borderColor: isDragging ? '#C9A96E' : '#d0c5b5',
                                             backgroundColor: isDragging ? 'rgba(201,169,110,0.04)' : 'transparent'

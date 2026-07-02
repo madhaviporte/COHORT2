@@ -29,14 +29,14 @@ const Home = () => {
             >
                
 
-                <div className="max-w-7xl mx-auto px-8 lg:px-16 xl:px-24">
+                <div className="max-w-7xl mx-auto px-4 sm:px-8 lg:px-16 xl:px-24">
                     {/* ── Hero / Header ── */}
-                    <div className="pt-20 pb-20 text-center flex flex-col items-center">
+                    <div className="pt-10 pb-10 sm:pt-16 sm:pb-16 md:pt-20 md:pb-20 text-center flex flex-col items-center">
                         <span className="text-[10px] uppercase tracking-[0.24em] font-medium mb-6" style={{ color: '#C9A96E' }}>
                             The Collection
                         </span>
                         <h1
-                            className="text-5xl lg:text-7xl font-light leading-tight mb-6"
+                            className="text-3xl sm:text-5xl lg:text-7xl font-light leading-tight mb-6"
                             style={{ fontFamily: "'Cormorant Garamond', serif", color: '#1b1c1a' }}
                         >
                             Curated Archive

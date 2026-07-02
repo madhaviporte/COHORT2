@@ -24,7 +24,7 @@ const Dashboard = () => {
                 className="min-h-screen selection:bg-[#C9A96E]/30"
                 style={{ backgroundColor: '#fbf9f6', fontFamily: "'Inter', sans-serif" }}
             >
-                <div className="max-w-7xl mx-auto px-8 lg:px-16 xl:px-24">
+                <div className="max-w-7xl mx-auto px-4 sm:px-8 lg:px-16 xl:px-24">
 
                     {/* ── Top Bar ── */}
                     <div className="pt-10 pb-0 flex items-center gap-5">
