@@ -341,6 +341,8 @@ const Cart = () => {
                                                                     } catch (err) {
                                                                         changeQty(_id, 1);
                                                                     }
+                                                                } else {
+                                                                    await handleRemoveCartItem({ productId: _id, variantId });
                                                                 }
                                                             }}
                                                             className="w-9 h-9 flex items-center justify-center text-sm font-light transition-colors hover:opacity-60"
